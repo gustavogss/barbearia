@@ -1,0 +1,3549 @@
+/* ========================================================================
+   Royal Backup & Reset - Modern Admin Styles
+   ======================================================================== */
+
+/* ========================================================================
+   PRO Badge & Disabled Options
+   ======================================================================== */
+
+.royalbr-pro-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    margin-left: 6px;
+    vertical-align: middle;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+}
+
+.royalbr-pro-badge:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Upgrade to Pro Menu Item */
+#adminmenu .royalbr-upgrade-menu {
+    color: greenyellow !important;
+    font-weight: 600;
+}
+
+.royalbr-pro-option-disabled {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.royalbr-pro-option-disabled label {
+    cursor: pointer;
+}
+
+.royalbr-pro-option-disabled .royalbr-custom-checkbox {
+    cursor: pointer;
+    pointer-events: none;
+    opacity: 1;
+    border-color: #8c8c8c;
+}
+
+/* Pro Modal Header Styles */
+.royalbr-pro-modal-header {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.royalbr-pro-modal-header .royalbr-modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+
+.royalbr-pro-modal-icon-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.royalbr-pro-modal-icon-title .dashicons-lock {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    color: #4f5bd5;
+    margin-bottom: 10px;
+}
+
+.royalbr-pro-modal-icon-title h3 {
+    margin: 0;
+}
+
+#royalbr-pro-modal .royalbr-modal-body {
+    text-align: center;
+}
+
+#royalbr-pro-modal-message {
+    max-width: 70%;
+    margin: 0 auto 10px auto;
+}
+
+/* ========================================================================
+   Base Layout & Typography
+   ======================================================================== */
+
+.royalbr-wrap {
+    background: #f5f5f7;
+    padding: 15px 15px 30px;
+    min-height: calc(100vh - 32px);
+}
+
+.royalbr-main-title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 20px 0;
+    padding: 0;
+    line-height: 1.2;
+}
+
+.royalbr-description {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6e6e73;
+    margin: 10px 0 18px !important;
+}
+
+.royalbr-description code {
+    background: #f0f0f2;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #1d1d1f;
+}
+
+/* ========================================================================
+   Tab Navigation
+   ======================================================================== */
+
+.royalbr-tabs-wrapper {
+    margin-top: 0;
+}
+
+.royalbr-nav-tabs {
+    display: flex;
+    gap: 0;
+    background: transparent;
+    border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.royalbr-nav-tab {
+    position: relative;
+    padding: 12px 5px;
+    margin-right: 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #6e6e73;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid transparent;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    white-space: nowrap;
+    outline: none;
+}
+
+.royalbr-nav-tab:hover {
+    color: #1d1d1f;
+    background: transparent;
+}
+
+.royalbr-nav-tab:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.royalbr-nav-tab.royalbr-nav-tab-active {
+    color: #4f5bd5;
+    border-bottom-color: #4f5bd5;
+    background: transparent;
+}
+
+.royalbr-nav-tab-premium {
+    color: #d4a017;
+    display: inline-flex;
+    align-items: center;
+}
+
+.royalbr-nav-tab-premium:hover {
+    color: #b8860b;
+}
+
+.royalbr-nav-tab-premium.royalbr-nav-tab-active {
+    color: #d4a017;
+    border-bottom-color: #d4a017;
+}
+
+.royalbr-nav-tab-premium .dashicons {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+/* ========================================================================
+   Tab Content
+   ======================================================================== */
+
+.royalbr-tab-content {
+    display: none;
+    animation: fadeIn 0.3s ease;
+}
+
+.royalbr-tab-content.royalbr-tab-active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* ========================================================================
+   Cards
+   ======================================================================== */
+
+.royalbr-card {
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    padding: 24px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.royalbr-card h2 {
+    margin: 0 0 10px 0;
+    color: #1d1d1f;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.royalbr-card h3 {
+    margin: 0 0 12px 0;
+    color: #1d1d1f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* ========================================================================
+   Checkbox Cards (Modern Bordered Checkboxes)
+   ======================================================================== */
+
+.royalbr-backup-options,
+.royalbr-reset-options {
+    margin: 18px 0;
+}
+
+.royalbr-reset-options {
+}
+
+.royalbr-reset-options h3 {
+    margin-top: 0;
+    margin-bottom: 6px;
+    color: #1d1d1f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.royalbr-reset-options > .royalbr-description {
+    margin-bottom: 15px;
+}
+
+.royalbr-checkbox-card {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.royalbr-checkbox-card:last-child {
+    margin-bottom: 0;
+}
+
+.royalbr-checkbox-card label {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+/* ========================================================================
+   Custom Checkbox - Unified Style
+   ======================================================================== */
+
+.royalbr-custom-checkbox {
+    position: relative;
+    width: 18px !important;
+    height: 19px !important;
+    flex-shrink: 0;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    outline: none;
+}
+
+.royalbr-custom-checkbox:hover {
+    border-color: #4f5bd5;
+}
+
+.royalbr-custom-checkbox:checked {
+    background: #4f5bd5;
+    border-color: #4f5bd5;
+}
+
+.royalbr-custom-checkbox:checked::after {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    width: 3px;
+    height: 6px;
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    transform: rotate(45deg);
+}
+
+.royalbr-custom-checkbox:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.royalbr-custom-checkbox:focus {
+    outline: none;
+    border-color: #d2d2d7;
+    box-shadow: none;
+}
+
+/* Margin variations for different contexts */
+.royalbr-checkbox-card .royalbr-custom-checkbox {
+    margin: 2px 10px 0 0;
+}
+
+#settings .form-table .royalbr-custom-checkbox {
+    margin: 0 10px 0 0;
+}
+
+.royalbr-restore-item .royalbr-custom-checkbox {
+    margin: 2px 10px 0 0;
+}
+
+.royalbr-checkbox-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.royalbr-checkbox-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1f;
+    line-height: 1.4;
+}
+
+.royalbr-checkbox-title strong {
+    font-weight: 500;
+}
+
+.royalbr-checkbox-label {
+    font-size: 12px;
+    color: #86868b;
+    line-height: 1.3;
+}
+
+/* Warning Checkbox Style */
+.royalbr-checkbox-warning .royalbr-custom-checkbox:checked {
+    background: #ff9500;
+    border-color: #ff9500;
+}
+
+/* ========================================================================
+   Buttons
+   ======================================================================== */
+
+.royalbr-button-primary,
+.royalbr-button-secondary,
+.royalbr-button-danger {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 10px 18px;
+    font-size: 13px;
+    font-weight: 500;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    text-decoration: none;
+    line-height: 1.4;
+    outline: none;
+}
+
+.royalbr-button-primary {
+    background: #4f5bd5;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(79, 91, 213, 0.3);
+}
+
+.royalbr-button-primary:hover:not(:disabled) {
+    background: #3d47a8;
+    box-shadow: 0 4px 12px rgba(79, 91, 213, 0.4);
+    transform: translateY(-1px);
+    color: #ffffff;
+}
+
+.royalbr-button-primary:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(79, 91, 213, 0.3);
+}
+
+.royalbr-button-primary:focus {
+    outline: none;
+}
+
+.royalbr-button-primary:disabled {
+    background: #d2d2d7;
+    color: #86868b;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+.royalbr-button-secondary {
+    background: #f5f5f7;
+    color: #1d1d1f;
+    border: 1px solid #d2d2d7;
+    box-shadow: none;
+}
+
+.royalbr-button-secondary:hover:not(:disabled) {
+    background: #e5e5e7;
+    border-color: #86868b;
+    color: #1d1d1f;
+}
+
+.royalbr-button-secondary:active:not(:disabled) {
+    background: #d2d2d7;
+}
+
+.royalbr-button-secondary:focus {
+    outline: none;
+}
+
+.royalbr-button-secondary:disabled {
+    background: #f5f5f7;
+    color: #86868b;
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.royalbr-button-danger {
+    background: #d63638;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(214, 54, 56, 0.3);
+}
+
+.royalbr-button-danger:hover:not(:disabled) {
+    background: #b32d2e;
+    box-shadow: 0 4px 12px rgba(214, 54, 56, 0.4);
+    transform: translateY(-1px);
+    color: #ffffff;
+}
+
+.royalbr-button-danger:active:not(:disabled) {
+    transform: translateY(0);
+    box-shadow: 0 1px 3px rgba(214, 54, 56, 0.3);
+}
+
+.royalbr-button-danger:focus {
+    outline: none;
+}
+
+.royalbr-button-danger:disabled {
+    background: #d2d2d7;
+    color: #86868b;
+    cursor: not-allowed;
+    box-shadow: none;
+    transform: none;
+}
+
+
+
+/* Button Actions Container */
+.royalbr-backup-actions,
+.royalbr-reset-actions {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #e5e5e7;
+}
+
+/* ========================================================================
+   Confirmation Section
+   ======================================================================== */
+
+.royalbr-reset-confirmation {
+    margin-top: 50px;
+}
+
+.royalbr-reset-confirmation h3 {
+    margin-top: 0;
+    margin-bottom: 12px;
+    color: #1d1d1f;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.royalbr-reset-confirmation h3::after {
+    content: ' *';
+    color: red;
+}
+
+.royalbr-checkbox-warning input[type="checkbox"]:checked:before {
+    visibility: hidden;
+}
+
+/* ========================================================================
+   Progress Indicators
+   ======================================================================== */
+
+.royalbr-progress-wrapper {
+    margin-top: 18px;
+    padding: 18px;
+    background: #f5f5f7;
+    border: 1px solid #d2d2d7;
+    border-radius: 7px;
+}
+
+.royalbr-progress-bar {
+    width: 100%;
+    height: 8px;
+    background: #e5e5e7;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.royalbr-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #4f5bd5, #7b85e8);
+    width: 0%;
+    transition: width 0.3s ease;
+    border-radius: 4px;
+}
+
+#reset-database .royalbr-progress-fill {
+    background: linear-gradient(90deg, #ff9500, #ffa926);
+}
+
+.royalbr-progress-text {
+    font-size: 14px;
+    color: #1d1d1f;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.royalbr-progress-fill.royalbr-progress-error {
+    background: linear-gradient(90deg, #d63638, #e35b5d);
+}
+
+.royalbr-progress-text.royalbr-error-text {
+    color: #d63638;
+    font-weight: 600;
+}
+
+/* Fading dots animation for progress text */
+.royalbr-progress-dots {
+    display: inline-block;
+    margin-left: 2px;
+}
+
+.royalbr-progress-dots span {
+    opacity: 0;
+    animation: royalbr-dot-fade 1.4s infinite;
+    font-size: 21px;
+}
+
+.royalbr-progress-dots span:nth-child(1) { animation-delay: 0s; }
+.royalbr-progress-dots span:nth-child(2) { animation-delay: 0.2s; }
+.royalbr-progress-dots span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes royalbr-dot-fade {
+    0%, 20% { opacity: 0; }
+    40%, 60% { opacity: 1; }
+    80%, 100% { opacity: 0; }
+}
+
+/* Uploading status in backup table */
+.royalbr-uploading-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.royalbr-uploading-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.royalbr-uploading-text {
+    display: block;
+    color: #666;
+    font-style: italic;
+}
+
+.royalbr-uploading-status .royalbr-progress-dots span {
+    font-size: 16px;
+}
+
+.royalbr-uploading-hint {
+    display: block;
+    font-size: 11px;
+    color: #999;
+    margin-top: -2px;
+}
+
+.royalbr-progress-actions {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.royalbr-progress-actions .royalbr-button-primary,
+.royalbr-progress-actions .royalbr-button-secondary {
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
+/* Backup Error Message (shown locally in progress area) */
+.royalbr-backup-error-message {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    background: #fef2f2;
+    border-left: 4px solid #d63638;
+    padding: 16px;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+.royalbr-backup-error-message .dashicons {
+    color: #d63638;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.royalbr-backup-error-message .royalbr-error-content {
+    flex: 1;
+}
+
+.royalbr-backup-error-message .royalbr-error-title {
+    display: block;
+    font-weight: 600;
+    font-size: 14px;
+    color: #d63638;
+    margin-bottom: 6px;
+}
+
+.royalbr-backup-error-message .royalbr-error-text {
+    font-size: 13px;
+    color: #1d1d1f;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* ========================================================================
+   Notices
+   ======================================================================== */
+
+.royalbr-notice {
+    padding: 12px 16px;
+    border-radius: 7px;
+    margin: 15px 0;
+    border-left: 4px solid;
+}
+
+.royalbr-notice-warning {
+    background: #fff9f0;
+    border-left-color: #ff9500;
+    color: #1d1d1f;
+}
+
+.royalbr-notice-success {
+    background: #f0fdf4;
+    border-left-color: #00a32a;
+    color: #1d1d1f;
+}
+
+.royalbr-notice-error {
+    background: #fef2f2;
+    border-left-color: #d63638;
+    color: #1d1d1f;
+}
+
+.royalbr-notice strong {
+    font-weight: 600;
+    display: block;
+    margin-bottom: 3px;
+}
+
+/* ========================================================================
+   Migration / Rescan Remote Storage
+   ======================================================================== */
+
+.royalbr-migration-card {
+    margin-top: 20px;
+}
+
+.royalbr-migration-empty {
+    padding: 15px 0;
+}
+
+.royalbr-rescan-remote-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+.royalbr-rescan-remote-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    vertical-align: text-bottom;
+}
+
+.royalbr-rescan-remote-btn.royalbr-loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.royalbr-rescan-status {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.royalbr-rescan-status .spinner {
+    float: none;
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+
+.royalbr-rescan-success {
+    color: #00a32a;
+}
+
+.royalbr-rescan-error {
+    color: #d63638;
+}
+
+/* ========================================================================
+   Backup Table
+   ======================================================================== */
+
+.royalbr-backup-table {
+    margin-top: 15px;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #e5e5e7;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.royalbr-backup-table th,
+.royalbr-backup-table td {
+    padding: 20px 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5e5e7;
+    vertical-align: top;
+}
+
+.royalbr-backup-table th {
+    background: #fafafa;
+    font-weight: 600;
+    font-size: 13px;
+    color: #1d1d1f;
+    border-top: none;
+}
+
+.royalbr-backup-table td {
+    font-size: 13px;
+    color: #1d1d1f;
+    background: #ffffff;
+}
+
+.royalbr-backup-table tbody tr {
+    transition: background-color 0.15s ease;
+}
+
+.royalbr-backup-table tbody tr:hover td {
+    background: #f9f9f9;
+}
+
+.royalbr-backup-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Custom Backup Name Styling */
+.royalbr-backup-name {
+}
+
+/* Backup Name Wrapper with Rename Button */
+.royalbr-backup-name-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Rename Backup Button (Premium) */
+.royalbr-rename-backup-btn {
+    background: transparent;
+    border: none;
+    padding: 2px 4px;
+    cursor: pointer;
+    color: #86868b;
+    transition: color 0.2s ease;
+    line-height: 1;
+    opacity: 1;
+    visibility: visible;
+}
+
+.royalbr-backup-name-wrapper:hover .royalbr-rename-backup-btn {
+    opacity: 1;
+    visibility: visible;
+}
+
+.royalbr-rename-backup-btn:hover {
+    color: #4f5bd5;
+}
+
+.royalbr-rename-backup-btn:focus {
+    outline: 2px solid #4f5bd5;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.royalbr-rename-backup-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Backup ID Styling (when shown with custom name) */
+.royalbr-backup-id {
+    display: block;
+    font-weight: normal;
+    color: #86868b;
+    font-size: 13px;
+}
+
+/* Backup Date Column */
+.royalbr-backup-date {
+    color: #86868b !important;
+}
+
+/* Download Components Styling */
+.royalbr-backup-components {
+    max-width: 400px;
+}
+
+.royalbr-download-label {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 2px;
+    font-size: 13px;
+}
+
+.royalbr-download-label .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.royalbr-download-links {
+    display: inline;
+    line-height: 1.6;
+}
+
+.royalbr-download-component {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    border: none;
+    color: #4f5bd5;
+    font-size: 12px;
+    text-decoration: underline;
+    transition: color 0.15s ease;
+    outline: none;
+}
+
+.royalbr-download-component:hover {
+    color: #3d47a8;
+}
+
+.royalbr-download-component:focus {
+    outline: none;
+}
+
+.royalbr-download-component:not(:last-child)::after {
+    content: ', ';
+}
+
+/* Action Buttons */
+.royalbr-backup-actions {
+    white-space: nowrap;
+}
+
+.royalbr-backup-actions .button {
+    padding: 4px 16px;
+    font-size: 13px;
+    border-radius: 4px;
+    outline: none;
+    margin: 0;
+    vertical-align: middle;
+    font-weight: 500;
+    border: none;
+    transition: all 0.15s ease;
+}
+
+.royalbr-backup-actions .button-primary {
+    margin-right: 8px;
+    background: #4f5bd5;
+    color: #ffffff;
+}
+
+.royalbr-backup-actions .button-primary:hover {
+    background: #3d47a8;
+}
+
+.royalbr-backup-actions .button:not(.button-primary) {
+    background: #f5f5f7;
+    color: #1d1d1f;
+}
+
+.royalbr-backup-actions .button:not(.button-primary):hover {
+    background: #e5e5e7;
+    color: #1d1d1f;
+}
+
+.royalbr-no-backups {
+    text-align: center;
+    padding: 40px 20px;
+    background: #fafafa;
+    border: 2px dashed #d2d2d7;
+    border-radius: 4px;
+    margin-top: 15px;
+}
+
+.royalbr-no-backups p {
+    font-size: 15px;
+    color: #6e6e73;
+    margin: 0;
+}
+
+/* ========================================================================
+   Settings Form
+   ======================================================================== */
+
+#settings .form-table {
+    margin-top: 18px;
+}
+
+#settings .form-table th {
+    font-weight: 600;
+    color: #1d1d1f;
+    font-size: 14px;
+}
+
+#settings .form-table td {
+    color: #1d1d1f;
+    font-size: 14px;
+}
+
+#settings .form-table .description {
+    color: #6e6e73;
+    font-size: 13px;
+}
+
+#settings h3 {
+    margin-top: 24px;
+    padding-top: 18px;
+    border-top: 1px solid #e5e5e7;
+}
+
+/* Custom Checkboxes in Settings Tab */
+#settings .form-table label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+#settings .form-table fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+#settings .form-table fieldset label {
+    margin-bottom: 10px;
+}
+
+#settings .form-table fieldset label:last-child {
+    margin-bottom: 0;
+}
+
+/* Scheduled Backup Columns Layout */
+.royalbr-schedule-columns {
+    display: flex;
+    gap: 24px;
+}
+
+.royalbr-schedule-column {
+    flex: 1;
+    min-width: 0;
+}
+
+.royalbr-schedule-column h3 {
+    margin-top: 18px;
+    padding-top: 0;
+    border-top: none;
+}
+
+.royalbr-schedule-column .form-table th {
+    width: auto;
+    padding-right: 10px;
+}
+
+/* Hide Test Now buttons in schedule columns */
+#royalbr-test-scheduled-files,
+#royalbr-test-scheduled-db,
+#royalbr-test-files-status,
+#royalbr-test-db-status {
+    display: none;
+}
+
+@media screen and (max-width: 782px) {
+    .royalbr-schedule-columns {
+        flex-direction: column;
+    }
+}
+
+/* Disabled Scheduled Backups (Free Version) */
+.royalbr-schedule-disabled.royalbr-pro-option-disabled {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.royalbr-schedule-disabled .form-table {
+    opacity: 0.8;
+}
+
+.royalbr-schedule-disabled .form-table select,
+.royalbr-schedule-disabled .form-table input,
+.royalbr-schedule-disabled .form-table button {
+    pointer-events: none;
+}
+
+/* ========================================================================
+   Modal Dialogs
+   ======================================================================== */
+
+.royalbr-modal {
+    position: fixed;
+    z-index: 100000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+
+/* Backup Name Input in Modal */
+#royalbr-backup-name {
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+}
+
+#royalbr-backup-name::placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+}
+
+#royalbr-backup-name:focus {
+    border-color: #4f5bd5;
+    outline: none;
+    box-shadow: 0 0 0 1px #4f5bd5;
+}
+
+label[for="royalbr-backup-name"] + .description {
+    font-size: 12px;
+}
+
+/* Rename Modal Specific Styles */
+#royalbr-backup-new-name {
+    width: 100%;
+    border: 1px solid #e8e8e8;
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 14px;
+    transition: border-color 0.2s ease;
+    box-sizing: border-box;
+}
+
+#royalbr-backup-new-name::placeholder {
+    color: #c9c9c9;
+    opacity: 1;
+}
+
+#royalbr-backup-new-name:focus {
+    border-color: #4f5bd5;
+    outline: none;
+    box-shadow: 0 0 0 1px #4f5bd5;
+}
+
+.royalbr-form-group {
+    margin-bottom: 0;
+}
+
+.royalbr-form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #1d1d1f;
+    font-size: 14px;
+}
+
+.royalbr-modal-description {
+    margin: 0 0 16px 0;
+    color: #86868b;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.royalbr-input-field {
+    width: 100%;
+}
+
+.royalbr-modal-content {
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    max-width: 500px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.royalbr-modal-content.royalbr-modal-large {
+    max-width: 700px;
+}
+
+.royalbr-modal-header {
+    padding: 20px 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.royalbr-modal-header h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #1d1d1f;
+    font-weight: 600;
+}
+
+.royalbr-modal-close {
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    color: #86868b;
+    line-height: 1;
+    transition: color 0.2s ease;
+}
+
+.royalbr-modal-close:hover {
+    color: #d63638;
+}
+
+.royalbr-modal-body {
+    padding: 16px 20px;
+}
+
+#royalbr-modal-message strong {
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.royalbr-modal-footer {
+    padding: 0 20px 20px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.royalbr-modal-footer.royalbr-modal-footer-with-link {
+    justify-content: space-between;
+}
+
+.royalbr-modal-footer-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.royalbr-modal-footer-link {
+    text-decoration: none;
+    color: #6e6e73;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+}
+
+.royalbr-modal-footer-link:hover {
+    color: #4f5bd5;
+}
+
+.royalbr-modal-footer-link .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.royalbr-modal-footer-link-tooltip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    background: #1d1d1f;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.4;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.royalbr-modal-footer-link-tooltip::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 16px;
+    border: 5px solid transparent;
+    border-top-color: #1d1d1f;
+}
+
+.royalbr-modal-footer-link:hover .royalbr-modal-footer-link-tooltip {
+    display: block;
+}
+
+.royalbr-modal.royalbr-finished .royalbr-modal-footer {
+    justify-content: center;
+}
+
+/* Center button when only one is visible (View Log on completion) */
+.royalbr-modal-footer.royalbr-modal-footer-centered {
+    justify-content: center !important;
+}
+
+.royalbr-modal-footer .button {
+    margin: 0;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 4px;
+    outline: none;
+}
+
+.royalbr-modal-footer .button-primary {
+    background: #4f5bd5;
+    border-color: #4f5bd5;
+    color: #ffffff;
+}
+
+.royalbr-modal-footer .button-primary:hover {
+    background: #3d47a8;
+    border-color: #3d47a8;
+}
+
+.royalbr-modal-footer .button:not(.button-primary) {
+    background: transparent;
+    border: 1px solid #d2d2d7;
+    color: #1d1d1f;
+}
+
+.royalbr-modal-footer .button:not(.button-primary):hover {
+    border-color: #86868b;
+    color: #1d1d1f;
+}
+
+/* Restore Modal Specific */
+.royalbr-restore-components {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.royalbr-restore-item {
+    position: relative;
+    margin-bottom: 12px;
+}
+
+/* Restore Progress Section inside Modal */
+#royalbr-restore-progress-section {
+    padding: 0 20px;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-header h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 8px 0;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-subtitle {
+    font-size: 13px;
+    color: #6e6e73;
+    margin: 0;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-components-list {
+    margin: 20px 0;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 0;
+    color: #86868b;
+    font-size: 14px;
+    position: relative;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component:not(:last-child) {
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#royalbr-restore-progress-section .royalbr-component-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+#royalbr-restore-progress-section .royalbr-component-label {
+    font-weight: 600;
+    font-size: 15px;
+    display: block;
+}
+
+#royalbr-restore-progress-section .royalbr-component-description {
+    display: block;
+    font-size: 13px;
+    color: #6e6e73;
+    font-weight: normal;
+}
+
+#royalbr-restore-progress-section .royalbr-component-status {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    flex-shrink: 0;
+}
+
+#royalbr-restore-progress-section .royalbr-component--progress {
+    font-size: 12px;
+    color: #6e6e73;
+    font-style: italic;
+}
+
+/* Status Classes */
+#royalbr-restore-progress-section .royalbr-restore-component.active {
+    color: #4f5bd5;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component.active .royalbr-component-status::before {
+    content: "\f463";
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    color: #4f5bd5;
+    animation: spin 1s linear infinite;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component.done {
+    color: #00a32a;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component.done .royalbr-component-status::before {
+    content: "\f147";
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    color: #00a32a;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component.error {
+    color: #d63638;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-component.error .royalbr-component-status::before {
+    content: "\f335";
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    color: #d63638;
+}
+
+/* Restore Result inside Modal */
+#royalbr-restore-progress-section .royalbr-restore-result {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-result.restore-success {
+    color: #00a32a;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-result.restore-error {
+    color: #d63638;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-result .dashicons {
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+#royalbr-restore-progress-section .royalbr-restore-error-message {
+    background: #fef2f2;
+    border-left: 4px solid #d63638;
+    padding: 12px;
+    margin: 15px 0;
+    border-radius: 4px;
+    color: #1d1d1f;
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.royalbr-restore-item:last-child {
+    margin-bottom: 0;
+}
+
+.royalbr-restore-item label {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+}
+
+
+.royalbr-restore-item-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    flex: 1;
+}
+
+.royalbr-restore-item strong {
+    display: block;
+    color: #1d1d1f;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.royalbr-restore-item .description {
+    display: block;
+    color: #86868b;
+    font-size: 12px;
+    margin-top: 0;
+    line-height: 1.3;
+}
+
+/* Select All Item */
+.royalbr-restore-select-all {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.royalbr-restore-select-all label {
+    align-items: center;
+}
+
+.royalbr-restore-select-all strong {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Migration Option */
+.royalbr-migration-option {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px solid #e5e5e7;
+}
+
+.royalbr-migration-notice-item {
+    background: #f0f6fc;
+    border: 1px solid #c3d9ed;
+    border-radius: 6px;
+    padding: 12px 16px;
+}
+
+.royalbr-migration-notice-item .description {
+    color: #50575e;
+    font-size: 12px;
+    margin-top: 4px;
+}
+
+.royalbr_restore_successful {
+    font-size: 20px;
+}
+
+/* ========================================================================
+   Admin Notices
+   ======================================================================== */
+
+#royalbr-admin-notices {
+    margin-top: 16px;
+}
+
+#royalbr-admin-notices .notice {
+    margin: 12px 0;
+    border-radius: 4px;
+}
+
+/* ========================================================================
+   Loading States
+   ======================================================================== */
+
+.royalbr-loading {
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.royalbr-loading .button {
+    position: relative;
+}
+
+.royalbr-loading .button:after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    margin: auto;
+    border: 1px solid transparent;
+    border-top-color: #ffffff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* ========================================================================
+   Admin Bar Icons & Tooltips
+   ======================================================================== */
+
+#wpadminbar #wp-admin-bar-royalbr_backup_node,
+#wpadminbar #wp-admin-bar-royalbr_reset_node {
+    margin-right: 0 !important;
+}
+
+#wpadminbar #wp-admin-bar-royalbr_backup_node .ab-icon,
+#wpadminbar #wp-admin-bar-royalbr_reset_node .ab-icon {
+    margin-right: 0 !important;
+}
+
+#wpadminbar .royalbr-backup-running .ab-icon {
+    opacity: 0.5;
+    cursor: wait;
+}
+
+#wpadminbar .royalbr-backup-running .ab-icon::before {
+    animation: royalbr-spin 1s linear infinite;
+}
+
+@keyframes royalbr-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+/* ========================================================================
+   Backup Hover Popup
+   ======================================================================== */
+
+.royalbr-backup-popup {
+    position: fixed;
+    top: 42px; /* Fallback - JavaScript will override */
+    left: auto; /* Let JavaScript set this */
+    right: auto; /* Remove fixed right positioning */
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    min-width: 400px;
+    max-width: 500px;
+    z-index: 99999;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.royalbr-backup-popup.royalbr-popup-visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.royalbr-backup-popup-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e7;
+    background: #f5f5f7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.royalbr-backup-popup-header h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.royalbr-backup-popup-header .royalbr-popup-backup-btn {
+    padding: 4px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+    margin: 0;
+    font-weight: 500;
+    border: none;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    background: #4f5bd5;
+    color: #ffffff;
+}
+
+.royalbr-backup-popup-header .royalbr-popup-backup-btn:hover:not(:disabled) {
+    background: #3d47a8;
+}
+
+.royalbr-backup-popup-header .royalbr-popup-backup-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Backup Now Button Highlight Animation */
+@keyframes royalbr-blink-highlight {
+    0%, 100% {
+        box-shadow: 0 2px 6px rgba(79, 91, 213, 0.3) !important;
+        transform: scale(1);
+    }
+    50% {
+        box-shadow: 0 0 0 4px rgba(79, 91, 213, 0.5), 0 2px 12px rgba(79, 91, 213, 0.6) !important;
+        transform: scale(1.05);
+    }
+}
+
+.royalbr-backup-popup-header .royalbr-popup-backup-btn.royalbr-highlight-blink {
+    animation: royalbr-blink-highlight 0.6s ease-in-out 3 !important;
+}
+
+.royalbr-backup-popup-content {
+    padding: 12px;
+}
+
+.royalbr-backup-popup-loading {
+    text-align: center;
+    padding: 40px 20px;
+    color: #6e6e73;
+}
+
+.royalbr-backup-popup-loading .dashicons {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    animation: royalbr-spin 1s linear infinite;
+}
+
+.royalbr-backup-popup-empty {
+    text-align: center;
+    padding: 40px 20px;
+    color: #6e6e73;
+}
+
+.royalbr-backup-popup-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* One-time fade-in for AJAX loaded content (JS-controlled) */
+.royalbr-fade-in-once {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.royalbr-fade-in-once.royalbr-fade-in-active {
+    opacity: 1;
+}
+
+.royalbr-backup-popup-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 8px;
+    border-bottom: 1px solid #e5e5e7;
+    transition: background-color 0.15s ease;
+}
+
+.royalbr-backup-popup-item:last-child {
+    border-bottom: none;
+}
+
+.royalbr-backup-popup-item:hover {
+    background: #f9f9f9;
+}
+
+.royalbr-backup-popup-item-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.royalbr-backup-popup-name {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1d1d1f;
+    margin-bottom: 2px;
+}
+
+.royalbr-backup-popup-name .royalbr-storage-icon {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.royalbr-backup-popup-name .royalbr-storage-icon .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+}
+
+.royalbr-backup-popup-id {
+    font-size: 12px;
+    color: #86868b;
+}
+
+.royalbr-backup-popup-item-action {
+    margin-left: 12px;
+}
+
+.royalbr-backup-popup-item-action .button {
+    padding: 4px 14px;
+    font-size: 12px;
+    border-radius: 4px;
+    outline: none;
+    margin: 0;
+    font-weight: 500;
+    border: none;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+}
+
+.royalbr-backup-popup-item-action .button-primary {
+    background: #4f5bd5;
+    color: #ffffff;
+}
+
+.royalbr-backup-popup-item-action .button-primary:hover {
+    background: #3d47a8;
+}
+
+/* Mobile adjustments for backup popup */
+@media (max-width: 782px) {
+    .royalbr-backup-popup {
+        top: 46px;
+        right: 0;
+        left: 0;
+        min-width: auto;
+        max-width: 100%;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .royalbr-backup-popup-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .royalbr-backup-popup-item-action {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .royalbr-backup-popup-item-action .button {
+        width: 100%;
+    }
+}
+
+/* ========================================================================
+   Reset Options Hover Popup
+   ======================================================================== */
+
+.royalbr-reset-popup {
+    position: fixed;
+    top: 42px; /* Fallback - JavaScript will override */
+    left: auto; /* Let JavaScript set this */
+    right: auto; /* Remove fixed right positioning */
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    min-width: 400px;
+    max-width: 500px;
+    z-index: 99999;
+    display: none;
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.royalbr-reset-popup.royalbr-popup-visible {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.royalbr-reset-popup-header {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e7;
+    background: #f5f5f7;
+}
+
+.royalbr-reset-popup-header h3 {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.royalbr-reset-popup-content {
+    padding: 20px;
+}
+
+.royalbr-reset-popup-options {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.royalbr-reset-popup-option {
+    margin-bottom: 12px;
+}
+
+.royalbr-reset-popup-option:last-child {
+    margin-bottom: 0;
+}
+
+.royalbr-reset-popup-option label {
+    display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+    margin: 0;
+}
+
+.royalbr-reset-popup-option .royalbr-custom-checkbox {
+    margin: 2px 10px 0 0;
+}
+
+.royalbr-reset-popup-option-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.royalbr-reset-popup-option-title {
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1f;
+    line-height: 1.4;
+}
+
+.royalbr-reset-popup-option-desc {
+    font-size: 12px;
+    color: #86868b;
+    line-height: 1.3;
+}
+
+.royalbr-reset-popup-footer {
+    padding: 0 20px 20px;
+    margin-top: 0;
+}
+
+.royalbr-reset-popup-button-wrapper {
+    text-align: left;
+}
+
+.royalbr-reset-popup-footer .royalbr-popup-reset-btn {
+    padding: 5px 15px;
+    font-size: 13px;
+    border-radius: 4px;
+    outline: none;
+    margin: 0;
+    font-weight: 500;
+    border: none;
+    transition: all 0.15s ease;
+    white-space: nowrap;
+    background: #d63638;
+    color: #ffffff;
+    box-shadow: 0 2px 6px rgba(214, 54, 56, 0.3);
+}
+
+.royalbr-reset-popup-footer .royalbr-popup-reset-btn:hover:not(:disabled) {
+    background: #b32d2e;
+    color: #ffffff;
+    box-shadow: 0 4px 12px rgba(214, 54, 56, 0.4);
+    transform: translateY(-1px);
+}
+
+.royalbr-reset-popup-footer .royalbr-popup-reset-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* Mobile adjustments for reset popup */
+@media (max-width: 782px) {
+    .royalbr-reset-popup {
+        top: 46px;
+        right: 0;
+        left: 0;
+        min-width: auto;
+        max-width: 100%;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+    }
+
+    .royalbr-reset-popup-footer .royalbr-popup-reset-btn {
+        width: 100%;
+    }
+}
+
+/* ========================================================================
+   Backup Completion Notice
+   ======================================================================== */
+
+.royalbr-backup-complete-notice {
+    position: relative;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.royalbr-backup-complete-notice p {
+    margin: 0.5em 0;
+    line-height: 1.6;
+}
+
+.royalbr-backup-complete-notice strong {
+    font-size: 14px;
+}
+
+/* Backup Progress Modal - Finished State Centering */
+#royalbr-backup-progress-modal .royalbr-modal-header {
+    justify-content: center;
+}
+
+#royalbr-backup-progress-modal .royalbr-modal-content {
+    position: relative;
+}
+
+#royalbr-backup-progress-modal .royalbr-modal-close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+}
+
+#royalbr-backup-progress-modal .royalbr-modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#royalbr-backup-progress-modal .royalbr-modal-body > p {
+    text-align: center;
+}
+
+#royalbr-backup-progress-modal .royalbr-progress-wrapper {
+    width: 90%;
+}
+
+#royalbr-backup-progress-modal .royalbr-backup-complete-message {
+    text-align: center;
+}
+
+#royalbr-backup-progress-modal .royalbr-modal-footer {
+    justify-content: center;
+}
+
+/* Restore Progress Modal Styles - Uses same <li> structure as backend */
+#royalbr-restore-progress-modal .royalbr-restore-components-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li {
+    color: #86868b;
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li::after {
+    content: '\f469';
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li .royalbr-component--wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li .royalbr-component--description {
+    font-size: 1em;
+    font-weight: 500;
+    color: inherit;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li .royalbr-component--helper {
+    font-size: 0.82em;
+    font-weight: 400;
+    color: #86868b;
+    line-height: 1.3;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li .royalbr-component--progress {
+    font-size: 0.85em;
+    color: #6e6e73;
+    font-weight: normal;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.active .royalbr-component--helper {
+    color: #6e6e73;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.done .royalbr-component--helper {
+    color: #86868b;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.done {
+    color: #00a32a;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.done::after {
+    content: "\f147";
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.active {
+    color: #1d1d1f;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.active::after {
+    content: "\f463";
+    animation: royalbr_rotate 1s linear infinite;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.error {
+    color: #d63638;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-components-list li.error::after {
+    content: "\f335";
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-result {
+    padding: 12px 0;
+    display: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-result.restore-success {
+    color: #00a32a;
+    text-align: center;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-result.restore-error {
+    color: #d63638;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-result .dashicons {
+    font-size: 1.5em;
+    order: 2;
+}
+
+#royalbr-restore-progress-modal .royalbr-restore-result .royalbr-restore-result--text {
+    order: 1;
+}
+
+#royalbr-restore-progress-modal .royalbr-modal-footer {
+    justify-content: center;
+}
+
+/* Reset Progress Modal Styles */
+#royalbr-reset-progress-modal .royalbr-modal-header {
+    justify-content: center;
+}
+
+#royalbr-reset-progress-modal .royalbr-modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 200px;
+}
+
+#royalbr-reset-progress-modal .royalbr-reset-subtitle {
+    color: #6e6e73;
+    margin-bottom: 20px;
+}
+
+#royalbr-reset-progress-modal .royalbr-reset-spinner {
+    font-size: 70px;
+    color: #4f5bd5;
+    width: 70px;
+    height: 70px;
+    position: relative;
+    display: inline-block;
+}
+
+#royalbr-reset-progress-modal .royalbr-reset-spinner::before {
+    content: "\f463";
+    font-family: dashicons;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: royalbr_rotate 1s linear infinite;
+}
+
+/* Delete Old Directories Notice */
+.delete-old-directories {
+    padding: 18px;
+    background: #fff9f0;
+    border-left: 4px solid #ff9500;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+#royalbr_delete_old_dirs_pagediv {
+    padding-bottom: 12px;
+}
+
+.delete-old-directories p {
+    margin: 12px 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.delete-old-directories form {
+    margin-top: 16px;
+}
+
+.delete-old-directories .button-primary {
+    background: #d63638;
+    border-color: #d63638;
+    box-shadow: 0 1px 0 #b32d2e;
+    text-shadow: none;
+    border-radius: 4px;
+}
+
+.delete-old-directories .button-primary:hover {
+    background: #b32d2e;
+    border-color: #b32d2e;
+}
+
+/* ========================================================================
+   AJAX Restore Screen Styles
+   ======================================================================== */
+
+@keyframes royalbr_rotate {
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+.royalbr-restore-container {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    padding-top: 30px;
+    background: #f5f5f7;
+    overflow: auto;
+}
+
+.royalbr-restore-container h2 {
+    margin: 0;
+}
+
+.royalbr-restore-main {
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background: #ffffff;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.royalbr-restore-main--header {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 30px 20px;
+    line-height: 1.3;
+    box-sizing: border-box;
+    border-bottom: 1px solid #e5e5e7;
+}
+
+.royalbr-restore-main--components {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    min-height: 320px;
+}
+
+.royalbr-restore-main--components > p {
+    text-align: center;
+    color: #6e6e73;
+    margin-bottom: 25px;
+}
+
+.royalbr-restore-main--components > h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+ul.royalbr-restore-components-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul.royalbr-restore-components-list li {
+    color: #86868b;
+    font-size: 1.1em;
+    margin-bottom: 1.2em;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul.royalbr-restore-components-list li::after {
+    content: '\f469';
+    font-family: dashicons;
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    flex-shrink: 0;
+}
+
+ul.royalbr-restore-components-list li .royalbr-component--wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+ul.royalbr-restore-components-list li .royalbr-component--description {
+    font-size: 1em;
+    font-weight: 500;
+    color: inherit;
+}
+
+ul.royalbr-restore-components-list li .royalbr-component--helper {
+    font-size: 0.82em;
+    font-weight: 400;
+    color: #86868b;
+    line-height: 1.3;
+}
+
+ul.royalbr-restore-components-list li.active .royalbr-component--helper {
+    color: #6e6e73;
+}
+
+ul.royalbr-restore-components-list li.done .royalbr-component--helper {
+    color: #86868b;
+}
+
+ul.royalbr-restore-components-list li.done {
+    color: #00a32a;
+}
+
+ul.royalbr-restore-components-list li.done::after {
+    content: "\f147";
+}
+
+ul.royalbr-restore-components-list li.active {
+    color: #1d1d1f;
+}
+
+ul.royalbr-restore-components-list li.active::after {
+    content: "\f463";
+    animation: royalbr_rotate 1s linear infinite;
+}
+
+ul.royalbr-restore-components-list li.error {
+    color: #d63638;
+}
+
+ul.royalbr-restore-components-list li.error::after {
+    content: "\f335";
+}
+
+.royalbr-restore-result {
+    padding: 12px 0;
+    display: none;
+    font-size: 1.2em;
+    font-weight: 600;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.royalbr-restore-result.restore-success {
+    color: #00a32a;
+    text-align: center;
+}
+
+.royalbr-restore-result.restore-error {
+    color: #d63638;
+}
+
+.royalbr-restore-result .dashicons {
+    font-size: 1.5em;
+    order: 2;
+}
+
+.royalbr-restore-result .royalbr-restore-result--text {
+    order: 1;
+}
+
+.royalbr-component--progress {
+    font-size: 0.85em;
+    color: #6e6e73;
+    font-weight: normal;
+}
+
+/* Restore Completion Section */
+.royalbr-restore-completion {
+    margin-top: 30px;
+}
+
+.royalbr-restore-error-message {
+    background: #fef2f2;
+    border-left: 4px solid #d63638;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    color: #1d1d1f;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.royalbr-restore-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.royalbr-restore-buttons .button {
+    padding: 2px 17px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.royalbr-restore-buttons .button-primary {
+    background: #4f5bd5;
+    border-color: #4f5bd5;
+    color: #ffffff;
+}
+
+.royalbr-restore-buttons .button-primary:hover {
+    background: #3d47a8;
+    border-color: #3d47a8;
+    color: #ffffff;
+}
+
+.royalbr-restore-buttons .button:not(.button-primary) {
+    background: #f5f5f7;
+    border: 1px solid #d2d2d7;
+    color: #1d1d1f;
+}
+
+.royalbr-restore-buttons .button:not(.button-primary):hover {
+    background: #e5e5e7;
+    border-color: #86868b;
+}
+
+/* ========================================================================
+   Responsive Design
+   ======================================================================== */
+
+@media (max-width: 1024px) {
+    .royalbr-wrap {
+        padding: 15px 20px 30px;
+    }
+}
+
+@media (max-width: 782px) {
+    .royalbr-wrap {
+        margin: 0 -10px;
+        padding: 12px 15px 25px;
+    }
+
+    .royalbr-main-title {
+        font-size: 24px;
+    }
+
+    .royalbr-nav-tabs {
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .royalbr-nav-tab {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+
+    .royalbr-card {
+        padding: 18px;
+        border-radius: 6px;
+    }
+
+    .royalbr-card h2 {
+        font-size: 18px;
+    }
+
+    .royalbr-checkbox-card label {
+        padding: 10px 12px;
+    }
+
+    .royalbr-button-primary,
+    .royalbr-button-danger {
+        width: 100%;
+        padding: 10px 18px;
+    }
+
+    .royalbr-backup-table th,
+    .royalbr-backup-table td {
+        padding: 8px;
+        font-size: 12px;
+    }
+
+    .royalbr-backup-actions .button {
+        font-size: 12px;
+        padding: 5px 10px;
+        display: block;
+        width: 100%;
+        margin-bottom: 4px !important;
+    }
+
+    .royalbr-backup-actions .button-primary {
+        margin-right: 0 !important;
+    }
+
+    .royalbr-download-component {
+        font-size: 11px;
+    }
+
+    .royalbr-modal-content {
+        width: 95%;
+        margin: 20px;
+    }
+
+    .royalbr-restore-main {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .royalbr-restore-main--components {
+        padding: 20px;
+    }
+
+    .royalbr-restore-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .royalbr-restore-buttons .button {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .royalbr-main-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+
+    .royalbr-nav-tab {
+        font-size: 13px;
+        padding: 10px 14px;
+    }
+
+    .royalbr-checkbox-title {
+        font-size: 14px;
+    }
+
+    .royalbr-checkbox-label {
+        font-size: 12px;
+    }
+}
+
+/* ========================================================================
+   Backup Reminder Notification
+   ======================================================================== */
+
+.royalbr-backup-reminder-notification {
+    position: fixed;
+    z-index: 99999;
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    padding: 16px 20px;
+    max-width: 280px;
+    display: none;
+    opacity: 0;
+    transform: translateX(10px);
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.royalbr-backup-reminder-notification.royalbr-popup-visible {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Arrow pointing right (toward backup popup) */
+.royalbr-backup-reminder-notification::after {
+    content: '';
+    position: absolute;
+    right: -8px;
+    top: 20px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #ffffff;
+}
+
+.royalbr-backup-reminder-notification::before {
+    content: '';
+    position: absolute;
+    right: -9px;
+    top: 19px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-bottom: 9px solid transparent;
+    border-left: 9px solid #d2d2d7;
+}
+
+.royalbr-reminder-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.royalbr-reminder-icon {
+    color: #4f5bd5;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.royalbr-reminder-text strong {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-bottom: 4px;
+}
+
+.royalbr-reminder-text p {
+    font-size: 13px;
+    color: #6e6e73;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.royalbr-reminder-video-guide {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: #cc0000;
+    text-decoration: none;
+    margin-top: 6px;
+}
+
+.royalbr-reminder-video-guide:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+
+.royalbr-reminder-video-guide .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+}
+
+.royalbr-video-tutorial-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    font-weight: normal;
+    color: #cc0000;
+    text-decoration: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.royalbr-video-tutorial-btn:hover {
+    color: #990000;
+    text-decoration: underline;
+}
+
+.royalbr-video-tutorial-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.royalbr-reminder-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+    border-top: 1px solid #e5e5e7;
+}
+
+.royalbr-reminder-dismiss-permanent {
+    font-size: 12px;
+    color: #86868b;
+    text-decoration: none;
+}
+
+.royalbr-reminder-dismiss-permanent:hover {
+    color: #4f5bd5;
+    text-decoration: underline;
+}
+
+.royalbr-reminder-skip {
+    font-size: 12px;
+    color: #007cba;
+    text-decoration: none;
+    margin-left: auto;
+}
+
+.royalbr-reminder-skip:hover {
+    text-decoration: underline;
+}
+
+.royalbr-reminder-dismiss-temp {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: transparent;
+    border: none;
+    padding: 4px;
+    cursor: pointer;
+    color: #86868b;
+    line-height: 1;
+}
+
+.royalbr-reminder-dismiss-temp:hover {
+    color: #d63638;
+}
+
+.royalbr-reminder-dismiss-temp .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Mobile responsive */
+@media (max-width: 782px) {
+    .royalbr-backup-reminder-notification {
+        max-width: 260px;
+        padding: 14px 16px;
+    }
+}
+
+/* ==========================================================================
+   Free vs Pro Comparison Tab
+   ========================================================================== */
+
+.royalbr-premium-section {
+    max-width: 900px;
+}
+
+/* Promo Video */
+.royalbr-promo-video {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 24px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.royalbr-promo-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Trial Request */
+.royalbr-trial-request {
+    text-align: center;
+    background: linear-gradient(135deg, #fffef9, #fffdf5);
+    border: 1px solid #d4a017;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.royalbr-trial-request h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 8px;
+}
+
+.royalbr-trial-request p {
+    font-size: 15px;
+    color: #6e6e73;
+    margin: 0 0 16px;
+}
+
+.royalbr-trial-btn {
+    display: inline-flex !important;
+    align-items: center;
+    background: #d4a017 !important;
+    border-color: #b8860b !important;
+    font-size: 13px !important;
+    letter-spacing: 0.5px !important;
+    padding: 5px 32px !important;
+    line-height: 28px !important;
+    font-weight: 600 !important;
+    text-transform: uppercase !important;
+}
+
+.royalbr-trial-btn .dashicons {
+    font-size: 15px;
+    width: 15px;
+    height: 15px;
+    margin-left: 6px;
+}
+
+.royalbr-trial-btn:hover {
+    background: #b8860b !important;
+    border-color: #996f0a !important;
+}
+
+/* Premium CTA Box */
+.royalbr-premium-cta {
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-left: 4px solid #f59e0b;
+    border-radius: 8px;
+    padding: 0;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.royalbr-premium-cta__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    gap: 24px;
+}
+
+.royalbr-premium-cta__summary h2 {
+    margin: 0 0 8px 0;
+    font-size: 24px;
+    font-weight: 400;
+    color: #1d1d1f;
+}
+
+.royalbr-premium-cta__summary h2 strong {
+    color: #f59e0b;
+    font-weight: 600;
+}
+
+.royalbr-premium-cta__summary p {
+    margin: 0;
+    color: #6e6e73;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.royalbr-premium-cta__action {
+    flex-shrink: 0;
+}
+
+.royalbr-button-hero {
+    padding: 12px 32px !important;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+}
+
+.royalbr-premium-cta__bottom {
+    background: #f9f9f9;
+    padding: 12px 24px;
+    border-top: 1px solid #e5e5e7;
+    border-radius: 0 0 8px 4px;
+}
+
+.royalbr-premium-cta__bottom p {
+    margin: 0;
+    color: #86868b;
+    font-size: 13px;
+}
+
+/* Features Comparison Table */
+.royalbr-feat-table__title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin: 0 0 20px 0;
+}
+
+.royalbr-feat-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #ffffff;
+    border: 1px solid #d2d2d7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.royalbr-feat-table td {
+    padding: 16px 20px;
+    border-bottom: 1px solid #e5e5e7;
+    vertical-align: middle;
+}
+
+.royalbr-feat-table tr:last-child td {
+    border-bottom: none;
+}
+
+.royalbr-feat-table td:first-child {
+    width: 60%;
+}
+
+.royalbr-feat-table td:nth-child(2),
+.royalbr-feat-table td:nth-child(3) {
+    width: 20%;
+    text-align: center;
+}
+
+/* Header Row */
+.royalbr-feat-table__header td {
+    background: #f5f5f7;
+    font-weight: 600;
+    font-size: 15px;
+    color: #1d1d1f;
+    padding: 20px;
+}
+
+.royalbr-feat-table__header td:nth-child(2),
+.royalbr-feat-table__header td:nth-child(3) {
+    text-align: center;
+}
+
+.royalbr-feat-table__header .dashicons {
+    display: block;
+    font-size: 28px;
+    width: 28px;
+    height: 28px;
+    margin: 0 auto 8px;
+}
+
+.royalbr-feat-table__header td:nth-child(2) .dashicons {
+    color: #4f5bd5;
+}
+
+.royalbr-feat-table__header td:nth-child(3) .dashicons {
+    color: #f59e0b;
+}
+
+/* Feature Rows */
+.royalbr-feat-table h4 {
+    margin: 0 0 4px 0;
+    font-size: 15px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.royalbr-feat-table p {
+    margin: 0;
+    font-size: 13px;
+    color: #6e6e73;
+    line-height: 1.4;
+}
+
+/* Yes/No Indicators */
+.royalbr-feat-table .dashicons.royalbr-yes {
+    color: #34c759;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+.royalbr-feat-table .dashicons.royalbr-no {
+    color: #d63638;
+    font-size: 24px;
+    width: 24px;
+    height: 24px;
+}
+
+/* Coming Soon Badge */
+.royalbr-feat-table .royalbr-coming-soon,
+.royalbr-coming-soon-badge {
+    display: inline-block;
+    background: #f5f5f7;
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #d2d2d7;
+}
+
+/* Installed Badge */
+.royalbr-installed {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #34c759;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.royalbr-installed .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .royalbr-premium-cta__top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .royalbr-premium-cta__action {
+        width: 100%;
+    }
+
+    .royalbr-premium-cta__action .royalbr-button-hero {
+        width: 100%;
+        text-align: center;
+    }
+
+    .royalbr-feat-table td:first-child {
+        width: 50%;
+    }
+
+    .royalbr-feat-table td:nth-child(2),
+    .royalbr-feat-table td:nth-child(3) {
+        width: 25%;
+    }
+
+    .royalbr-feat-table td {
+        padding: 12px;
+    }
+
+    .royalbr-feat-table h4 {
+        font-size: 14px;
+    }
+
+    .royalbr-feat-table p {
+        font-size: 12px;
+    }
+}
+
+/* ========================================================================
+   Rating Notice
+   ======================================================================== */
+
+.royalbr-rating-notice {
+    padding: 10px 38px 10px 20px;
+    border-top: 0;
+    border-bottom: 0;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.royalbr-rating-notice-logo {
+    margin-right: 20px;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+}
+
+.royalbr-rating-notice-logo img {
+    max-width: 100%;
+}
+
+.royalbr-rating-notice-content h3 {
+    margin-bottom: 0;
+}
+
+.royalbr-rating-notice-content p {
+    margin-top: 3px;
+    margin-bottom: 15px;
+}
+
+.royalbr-maybe-later,
+.royalbr-already-rated {
+    text-decoration: none !important;
+    margin-left: 12px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.royalbr-maybe-later:hover,
+.royalbr-maybe-later:focus,
+.royalbr-maybe-later:active,
+.royalbr-already-rated:hover,
+.royalbr-already-rated:focus,
+.royalbr-already-rated:active {
+    text-decoration: none !important;
+}
+
+.royalbr-already-rated .dashicons,
+.royalbr-maybe-later .dashicons {
+    vertical-align: middle;
+}
+
+.royalbr-rating-notice .notice-dismiss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    background: none;
+    color: #787c82;
+    cursor: pointer;
+}
+
+.royalbr-rating-notice .notice-dismiss:before {
+    background: none;
+    color: #787c82;
+    content: '\f153';
+    display: block;
+    font: normal 16px/1 dashicons;
+    speak: never;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.royalbr-rating-notice .notice-dismiss:hover:before {
+    color: #d63638;
+}
+
+@media (max-width: 782px) {
+    .royalbr-rating-notice {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .royalbr-rating-notice-logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .royalbr-rating-notice-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .royalbr-maybe-later,
+    .royalbr-already-rated {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+/* ========================================================================
+   Backup Reminder Banner
+   ======================================================================== */
+
+.royalbr-backup-reminder-banner {
+    padding: 10px 20px;
+    border-top: 0;
+    border-bottom: 0;
+    border-left-color: #4f5bd5 !important;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.royalbr-backup-reminder-banner-logo {
+    margin-right: 20px;
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.royalbr-backup-reminder-banner-logo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.royalbr-backup-reminder-banner-content h3 {
+    margin-bottom: 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1d1d1f;
+}
+
+.royalbr-backup-reminder-banner-content p {
+    margin-top: 3px;
+    margin-bottom: 15px;
+    color: #6e6e73;
+}
+
+.royalbr-backup-reminder-banner-buttons {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.royalbr-backup-reminder-banner-buttons .button-primary {
+    background: #4f5bd5;
+    border-color: #4f5bd5;
+}
+
+.royalbr-backup-reminder-banner-buttons .button-primary:hover {
+    background: #3d47a8;
+    border-color: #3d47a8;
+}
+
+.royalbr-backup-reminder-banner-later {
+    text-decoration: none;
+    margin-left: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #6e6e73;
+}
+
+.royalbr-backup-reminder-banner-later:hover {
+    color: #4f5bd5;
+}
+
+.royalbr-backup-reminder-banner-later .dashicons {
+    vertical-align: middle;
+}
+
+.royalbr-backup-reminder-banner .notice-dismiss {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 1px;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    background: none;
+    color: #787c82;
+    cursor: pointer;
+}
+
+.royalbr-backup-reminder-banner .notice-dismiss:before {
+    background: none;
+    color: #787c82;
+    content: '\f153';
+    display: block;
+    font: normal 16px/20px dashicons;
+    speak: never;
+    height: 20px;
+    text-align: center;
+    width: 20px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.royalbr-backup-reminder-banner .notice-dismiss:hover:before {
+    color: #d63638;
+}
+
+@media (max-width: 782px) {
+    .royalbr-backup-reminder-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .royalbr-backup-reminder-banner-logo {
+        margin-right: 0;
+        margin-bottom: 15px;
+        width: 60px;
+        height: 60px;
+    }
+
+    .royalbr-backup-reminder-banner-buttons {
+        justify-content: center;
+    }
+
+    .royalbr-backup-reminder-banner-later {
+        margin-left: 0;
+        margin-top: 8px;
+    }
+}
+
+/* ========================================================================
+   Remote Storage Settings (Google Drive, etc.)
+   ======================================================================== */
+
+.royalbr-remote-settings {
+    margin-left: 28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 16px;
+    background: #f9f9f9;
+    border-left: 3px solid #4f5bd5;
+    border-radius: 0 4px 4px 0;
+}
+
+.royalbr-gdrive-folder-row {
+    margin-bottom: 16px;
+}
+
+.royalbr-gdrive-folder-row label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 6px;
+    color: #1d1d1f;
+}
+
+.royalbr-gdrive-folder-row input[type="text"] {
+    width: 250px;
+    padding: 8px 12px;
+    border: 1px solid #d2d2d7;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.royalbr-gdrive-folder-row input[type="text"]:focus {
+    border-color: #4f5bd5;
+    outline: none;
+    box-shadow: 0 0 0 1px #4f5bd5;
+}
+
+.royalbr-gdrive-folder-row input[type="text"]::placeholder {
+    color: #86868b;
+}
+
+.royalbr-gdrive-folder-row .description {
+    margin-top: 6px;
+}
+
+.royalbr-gdrive-auth-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+#royalbr-gdrive-signin {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#royalbr-gdrive-signin .dashicons {
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.royalbr-gdrive-status {
+    color: #00a32a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.royalbr-gdrive-status .dashicons {
+    color: #00a32a;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+.royalbr-gdrive-status a {
+    color: #4f5bd5;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+.royalbr-gdrive-status a:hover {
+    text-decoration: underline;
+}
+
+/* Dropbox Settings */
+.royalbr-dropbox-auth-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 10px;
+}
+
+.royalbr-dropbox-status {
+    color: #00a32a;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 14px;
+}
+
+.royalbr-dropbox-status .dashicons {
+    color: #00a32a;
+    font-size: 18px;
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 782px) {
+    .royalbr-remote-settings {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .royalbr-gdrive-folder-row input[type="text"] {
+        width: 100%;
+    }
+
+    .royalbr-gdrive-auth-row,
+    .royalbr-dropbox-auth-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+}
+
+/* ========================================================================
+   Remote Backup Storage Indicators
+   ======================================================================== */
+
+.royalbr-storage-indicators {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 6px;
+}
+
+.royalbr-storage-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.royalbr-storage-icon img {
+    display: block;
+}
+
+.royalbr-storage-local .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    color: #666;
+}
+
+.royalbr-storage-gdrive img {
+    filter: none;
+}
+
+/* Remote-only backup notice */
+.royalbr-remote-notice {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+
+.royalbr-remote-notice img {
+    display: block;
+}
+
+.royalbr-remote-components {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.royalbr-remote-component {
+    display: inline-block;
+    background: #f0f0f1;
+    color: #50575e;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+/* Pro Promo Rotating Text */
+.royalbr-pro-promo-text {
+    display: block;
+    text-align: center;
+    color: #4f5bd5;
+    font-style: italic;
+    margin: 15px 0 5px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.royalbr-pro-promo-text:hover,
+.royalbr-pro-promo-text:focus {
+    color: #4f5bd5;
+    text-decoration: none;
+}

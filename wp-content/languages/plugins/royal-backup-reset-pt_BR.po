@@ -1,0 +1,1752 @@
+# Translation of Plugins - Royal WordPress Backup, Restore &amp; Migration Plugin &#8211; Backup WordPress Sites Safely - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - Royal WordPress Backup, Restore &amp; Migration Plugin &#8211; Backup WordPress Sites Safely - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-02-18 16:17:40+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - Royal WordPress Backup, Restore &amp; Migration Plugin &#8211; Backup WordPress Sites Safely - Stable (latest release)\n"
+
+#: royal-backup-reset.php:3546 royal-backup-reset.php:3734
+#: royal-backup-reset.php:3963
+msgid "Troubleshoot, Feature Request, Presale Question or Anything else..."
+msgstr "Solução de problemas, solicitação de recursos, dúvida sobre a pré-venda ou qualquer outra coisa..."
+
+#: royal-backup-reset.php:3545 royal-backup-reset.php:3733
+#: royal-backup-reset.php:3962
+msgid "Have a Question? Contact Us"
+msgstr "Tem alguma dúvida? Entre em contato conosco."
+
+#: includes/rating/class-royalbr-backup-reminder-banner.php:171
+msgid "Remind Me Later"
+msgstr "Lembre-me mais tarde"
+
+#: includes/rating/class-royalbr-backup-reminder-banner.php:168
+msgid "Backup Now"
+msgstr "Faça backup agora"
+
+#: includes/rating/class-royalbr-backup-reminder-banner.php:165
+msgid "You haven't backed up your site recently. A quick backup takes less than a minute and could save you hours of work."
+msgstr "Você não fez backup do seu site recentemente. Um backup rápido leva menos de um minuto e pode economizar horas de trabalho."
+
+#: includes/rating/class-royalbr-backup-reminder-banner.php:164
+msgid "Protect Your Website — Create a Backup!"
+msgstr "Proteja seu site — Crie um backup!"
+
+#: royal-backup-reset.php:938
+msgid "Consider backing up before editing this template. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de editar este modelo. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:3933
+msgid "Restore core files changed by <span style=\"color:#b8860b;\">viruses, hackers or wp updates</span>"
+msgstr "Restaurar arquivos principais alterados por <span style=\"color:#b8860b;\">vírus, hackers ou atualizações do WordPress.</span>"
+
+#: royal-backup-reset.php:3674 royal-backup-reset.php:4527
+msgid "Copy Log"
+msgstr "Copiar registro"
+
+#: royal-backup-reset.php:2664
+msgid "Invalid S3 location. Please enter a bucket name."
+msgstr "Localização S3 inválida. Por favor, insira o nome do bucket."
+
+#: royal-backup-reset.php:2654
+msgid "Please fill in all required fields (Access Key, Secret Key, and Location)."
+msgstr "Preencha todos os campos obrigatórios (Chave de Acesso, Chave Secreta e Localização)."
+
+#: royal-backup-reset.php:2563 royal-backup-reset.php:2595
+msgid "Backup locations feature not available."
+msgstr "O recurso de locais de backup não está disponível."
+
+#: royal-backup-reset.php:1780
+msgid "Refresh page to check status"
+msgstr "Atualize a página para verificar o status."
+
+#: royal-backup-reset.php:1777
+msgid "Uploading"
+msgstr "Enviando"
+
+#: royal-backup-reset.php:1716
+msgid "Files stored in Google Drive"
+msgstr "Arquivos armazenados no Google Drive"
+
+#: royal-backup-reset.php:1713
+msgid "Files stored in Dropbox"
+msgstr "Arquivos armazenados no Dropbox"
+
+#: royal-backup-reset.php:1710
+msgid "Files stored in Amazon S3"
+msgstr "Arquivos armazenados no Amazon S3"
+
+#: royal-backup-reset.php:1707
+msgid "Files stored in cloud storage"
+msgstr "Arquivos armazenados no armazenamento em nuvem"
+
+#: royal-backup-reset.php:1658
+msgid "Stored in Amazon S3"
+msgstr "Armazenado no Amazon S3"
+
+#: royal-backup-reset.php:1653
+msgid "Stored in Dropbox"
+msgstr "Armazenado no Dropbox"
+
+#: royal-backup-reset.php:1648
+msgid "Stored in Google Drive"
+msgstr "Armazenado no Google Drive"
+
+#: royal-backup-reset.php:1643
+msgid "Stored locally"
+msgstr "Armazenado localmente"
+
+#: royal-backup-reset.php:746
+msgid "Downloading files from cloud storage..."
+msgstr "Baixando arquivos do armazenamento em nuvem..."
+
+#: royal-backup-reset.php:745
+msgid "Downloading files from Dropbox..."
+msgstr "Baixando arquivos do Dropbox..."
+
+#: royal-backup-reset.php:744
+msgid "Downloading files from Google Drive..."
+msgstr "Baixando arquivos do Google Drive..."
+
+#: royal-backup-reset.php:743
+msgid "This backup is stored remotely. Files will be downloaded before restoration. This may take a few minutes depending on backup size. Continue?"
+msgstr "Este backup está armazenado remotamente. Os arquivos serão baixados antes da restauração. Isso pode levar alguns minutos, dependendo do tamanho do backup. Continuar?"
+
+#: royal-backup-reset.php:684
+msgid "Rate plugin"
+msgstr "Classificar o plugin"
+
+#: royal-backup-reset.php:131
+msgid "Upgrade to Pro"
+msgstr "Atualizar para Pro"
+
+#: royal-backup-reset.php:118
+msgid "Video Guide"
+msgstr "Guia em Vídeo"
+
+#: includes/admin-page.php:786
+msgid "The Backup will include Core WP files and If something goes wrong after a viruses, Hacker attacks or WP update, you can always revert back and restore Original WP Files."
+msgstr "O backup incluirá os arquivos principais do WordPress e, caso algo dê errado após um vírus, ataque de hackers ou atualização do WordPress, você sempre poderá reverter e restaurar os arquivos originais do WordPress."
+
+#: includes/admin-page.php:785
+msgid "WordPress Viruses, Hackers and Updates Protection"
+msgstr "Proteção contra vírus, hackers e atualizações do WordPress"
+
+#: includes/admin-page.php:772
+msgid "Store backups securely on Amazon S3."
+msgstr "Armazene backups com segurança no Amazon S3."
+
+#: includes/admin-page.php:758
+msgid "Store backups securely on Dropbox."
+msgstr "Armazene backups com segurança no Dropbox."
+
+#: includes/admin-page.php:744
+msgid "Store backups securely on Google Drive."
+msgstr "Armazene backups com segurança no Google Drive."
+
+#: includes/admin-page.php:492
+msgid "Include WordPress core (wp-admin, wp-includes and root files) by default"
+msgstr "Incluir o núcleo do WordPress (wp-admin, wp-includes e arquivos raiz) por padrão."
+
+#: includes/admin-page.php:460
+msgid "Select where to store your backups."
+msgstr "Selecione onde armazenar seus backups."
+
+#: includes/admin-page.php:457 includes/admin-page.php:771
+#: royal-backup-reset.php:1584 royal-backup-reset.php:1853
+#: royal-backup-reset.php:1901
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#: includes/admin-page.php:453 includes/admin-page.php:757
+#: royal-backup-reset.php:1580 royal-backup-reset.php:1849
+#: royal-backup-reset.php:1896
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: includes/admin-page.php:449 includes/admin-page.php:743
+#: royal-backup-reset.php:1576 royal-backup-reset.php:1845
+#: royal-backup-reset.php:1891
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#: includes/admin-page.php:445
+msgid "Local Storage"
+msgstr "Armazenamento Local"
+
+#: includes/admin-page.php:440
+msgid "Storage Destinations"
+msgstr "Destinos de armazenamento"
+
+#: includes/admin-page.php:435 includes/admin-page.php:442
+msgid "Backup Locations"
+msgstr "Backup Localizações"
+
+#: includes/admin-page.php:266 includes/admin-page.php:566
+msgid "Reactivate currently Active Plugins"
+msgstr "Reativar plugins atualmente ativos"
+
+#: includes/admin-page.php:95 royal-backup-reset.php:3536
+msgid "(Backup WordPress core files to quickly restore them if they are altered by <span style=\"color:#b8860b;\">virus, hackers, or security incidents.</span>)"
+msgstr "(Faça backup dos arquivos principais do WordPress para restaurá-los rapidamente caso sejam alterados por <span style=\"color:#b8860b;\">vírus, hackers ou incidentes de segurança.</span> )"
+
+#: includes/admin-page.php:85 royal-backup-reset.php:2011
+msgid "WordPress Core"
+msgstr "WordPress Core"
+
+#: royal-backup-reset.php:687
+msgid "Go Pro"
+msgstr "Obter o Pro"
+
+#: royal-backup-reset.php:3910
+msgid "Restore entire wp-content/uploads folder including images, videos, etc..."
+msgstr "Restaurar toda a pasta wp-content/uploads, incluindo imagens, vídeos, etc..."
+
+#: royal-backup-reset.php:3883
+msgid "Restore complete database - your posts, pages, users and settings."
+msgstr "Restaurar banco de dados completo - suas postagens, páginas, usuários e configurações."
+
+#: royal-backup-reset.php:937
+msgid "Consider backing up before importing content. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de importar o conteúdo. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:936
+msgid "Consider backing up before updating WordPress. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de atualizar o WordPress. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:935
+msgid "Consider backing up before updating multiple themes. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de atualizar vários temas. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:934
+msgid "Consider backing up before updating multiple plugins. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de atualizar vários plugins. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:933
+msgid "Consider backing up before deactivating multiple plugins. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de desativar vários plugins. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:932
+msgid "Consider backing up before activating multiple plugins. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de ativar vários plugins. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:931
+msgid "Consider backing up before updating plugins. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de atualizar os plugins. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:929
+msgid "Consider backing up before updating themes. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de atualizar os temas. Leva menos de um minuto!"
+
+#: royal-backup-reset.php:928
+msgid "Consider backing up before activating themes. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de ativar os temas. Leva menos de um minuto!"
+
+#: includes/class-royalbr-tour.php:108
+msgid "Welcome to Royal Backup, Restore & Reset"
+msgstr "Bem-vindo ao Royal Backup, Restore & Reset."
+
+#: includes/class-royalbr-tour.php:107
+msgid "Royal Backup, Restore & Reset settings"
+msgstr "Configurações do Royal Backup, Restore & Reset"
+
+#: royal-backup-reset.php:3589
+msgid "Your backup is being created. You can close this and continue working."
+msgstr "Seu backup está sendo criado. Você pode fechar esta janela e continuar trabalhando."
+
+#: royal-backup-reset.php:1050
+msgid "A backup is already in progress. Please wait for it to complete."
+msgstr "O backup já está em andamento. Aguarde até que seja concluído."
+
+#: royal-backup-reset.php:930
+msgid "Consider backing up before activating plugins. Takes less than a minute!"
+msgstr "Considere fazer um backup antes de ativar os plugins. Leva menos de um minuto!"
+
+#: includes/rating/class-royalbr-backup-reminder-banner.php:175
+#: includes/rating/class-royalbr-rating-notice.php:178
+msgid "Dismiss this notice."
+msgstr "Dispensar esse aviso."
+
+#: includes/rating/class-royalbr-rating-notice.php:174
+msgid "I Already did"
+msgstr "Eu já fiz"
+
+#: includes/rating/class-royalbr-rating-notice.php:171
+msgid "Maybe Later"
+msgstr "Talvez mais tarde"
+
+#: includes/rating/class-royalbr-rating-notice.php:168
+msgid "OK, you deserve it!"
+msgstr "Ok, você merece!"
+
+#: includes/rating/class-royalbr-rating-notice.php:165
+msgid "Could you please do us a BIG favor and give it a 5-star rating on WordPress? Just to help us spread the word and boost our motivation."
+msgstr "Você poderia nos fazer um GRANDE favor e dar uma avaliação de 5 estrelas no WordPress? Isso nos ajudaria a divulgar e aumentaria nossa motivação."
+
+#: includes/rating/class-royalbr-rating-notice.php:164
+msgid "Thank you for using Royal Backup & Reset!"
+msgstr "Obrigado por usar o Royal Backup & Reset!"
+
+#: includes/admin-page.php:482
+msgid "Include database content (your posts, pages, users and settings) by default"
+msgstr "Incluir conteúdo do banco de dados (suas postagens, páginas, usuários e configurações) por padrão"
+
+#: includes/admin-page.php:285
+msgid "(removes year/month media(images, videos, etc...) folders only)"
+msgstr "(Remove apenas pastas de mídia (imagens, vídeos, etc.) organizadas por ano/mês)"
+
+#: includes/admin-page.php:243
+msgid "Choose which items to restore and what to clear after resetting:"
+msgstr "Escolha quais itens restaurar e quais apagar após a redefinição:"
+
+#: includes/admin-page.php:127
+msgid "Backups run in the background. You can continue working while the backup is being created."
+msgstr "Os backups são executados em segundo plano. Você pode continuar trabalhando enquanto o backup está sendo criado."
+
+#: includes/admin-page.php:81 royal-backup-reset.php:3522
+msgid "(themes, plugins, images and uploads )"
+msgstr "(temas, plugins, imagens e uploads)"
+
+#: includes/admin-page.php:70 royal-backup-reset.php:3511
+msgid "(your posts, pages, users and settings)"
+msgstr "(suas postagens, páginas, usuários e configurações)"
+
+#: includes/admin-page.php:55
+msgid "Create Full Site Backup"
+msgstr "Criar backup completo do site"
+
+#. Plugin Name of the plugin
+#: royal-backup-reset.php
+msgid "Royal Backup, Restore & Reset"
+msgstr "Backup, restauração e redefinição reais"
+
+#: royal-backup-reset.php:5128
+msgid "Insufficient disk space"
+msgstr "Espaço em disco insuficiente"
+
+#: royal-backup-reset.php:4342
+msgid "Site Restored Successfuly"
+msgstr "Site restaurado com sucesso."
+
+#: royal-backup-reset.php:4075
+msgid "Upgrade to PRO"
+msgstr "Atualize para PRO"
+
+#: royal-backup-reset.php:4068
+msgid "Premium Feature"
+msgstr "Recurso Premium"
+
+#: royal-backup-reset.php:4016
+msgid "Please wait while your database is being reset..."
+msgstr "Aguarde enquanto seu banco de dados está sendo reiniciado..."
+
+#: royal-backup-reset.php:4012
+msgid "Reset in Progress"
+msgstr "Reinicialização em andamento"
+
+#: royal-backup-reset.php:3967
+msgid "Continue"
+msgstr "Continuar"
+
+#: royal-backup-reset.php:3939
+msgid "Free version restores all available components. Upgrade to PRO to select specific items."
+msgstr "A versão gratuita restaura todos os componentes disponíveis. Atualize para a versão PRO para selecionar itens específicos."
+
+#: royal-backup-reset.php:3789
+msgid "Please wait while your site is being restored..."
+msgstr "Aguarde enquanto o site está sendo restaurado..."
+
+#: royal-backup-reset.php:3785
+msgid "Restoration in Progress"
+msgstr "Restauração em andamento"
+
+#: royal-backup-reset.php:3678 royal-backup-reset.php:4531
+msgid "Download Log"
+msgstr "Baixar registro"
+
+#: royal-backup-reset.php:3617 royal-backup-reset.php:3810
+#: royal-backup-reset.php:4031
+msgid "Done"
+msgstr "Feito"
+
+#: royal-backup-reset.php:3597
+msgid "Initializing..."
+msgstr "Inicializando..."
+
+#: royal-backup-reset.php:3584
+msgid "Backup in Progress"
+msgstr "Backup em andamento"
+
+#: royal-backup-reset.php:3549 royal-backup-reset.php:3737
+#: royal-backup-reset.php:3966
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: royal-backup-reset.php:3494
+msgid "If left empty, the backup ID will be used for display."
+msgstr "Se deixado em branco, o ID de backup será usado para exibição."
+
+#: royal-backup-reset.php:3493
+msgid "Custom Backup Name (Optional)"
+msgstr "Nome de backup personalizado (opcional)"
+
+#: royal-backup-reset.php:3083
+msgid "Failed to start database backup test."
+msgstr "Falha ao iniciar o teste de backup do banco de dados."
+
+#: royal-backup-reset.php:3080
+msgid "Database backup test started successfully."
+msgstr "O teste de backup do banco de dados foi iniciado com sucesso."
+
+#: royal-backup-reset.php:3041
+msgid "Failed to start files backup test."
+msgstr "Falha ao iniciar o teste de backup de arquivos."
+
+#: royal-backup-reset.php:3038
+msgid "Files backup test started successfully."
+msgstr "O teste de backup de arquivos foi iniciado com sucesso."
+
+#: royal-backup-reset.php:2977
+msgid "Invalid log file path."
+msgstr "Caminho do arquivo de log inválido."
+
+#: royal-backup-reset.php:2969
+msgid "Log file path not provided."
+msgstr "O caminho do arquivo de log não foi fornecido."
+
+#: royal-backup-reset.php:2929 royal-backup-reset.php:2982
+msgid "Log file not found."
+msgstr "Arquivo de log não encontrado."
+
+#: royal-backup-reset.php:2382
+msgid "Your server has less than 50 MB of free disk space. Backups and restores may fail. Please free up space or contact your hosting provider."
+msgstr "Seu servidor tem menos de 50 MB de espaço livre em disco. Os backups e restaurações podem falhar. Libere espaço ou entre em contato com seu provedor de hospedagem."
+
+#: royal-backup-reset.php:2381
+msgid "Low Disk Space"
+msgstr "Pouco espaço em disco"
+
+#: royal-backup-reset.php:2054
+msgid "Backup not found in history."
+msgstr "Não foi encontrado nenhum backup no histórico."
+
+#: royal-backup-reset.php:1265
+msgid "Security check failed."
+msgstr "Falha de verificação de segurança."
+
+#: royal-backup-reset.php:1242
+msgid "No backup nonce specified."
+msgstr "Nenhum nonce de backup especificado."
+
+#: royal-backup-reset.php:1117
+msgid "Start backup: OK. Backup is running in background..."
+msgstr "Iniciar backup: OK. O backup está sendo executado em segundo plano..."
+
+#: royal-backup-reset.php:1061
+msgid "Insufficient disk space. Please free up at least 50MB of disk space before creating a backup."
+msgstr "Espaço em disco insuficiente. Libere pelo menos 50 MB de espaço em disco antes de criar um backup."
+
+#: royal-backup-reset.php:941
+msgid "Proceed without backup"
+msgstr "Prosseguir sem backup"
+
+#: royal-backup-reset.php:940
+msgid "Skip Now"
+msgstr "Ignorar agora"
+
+#: royal-backup-reset.php:939
+msgid "Don't show again"
+msgstr "Não mostrar novamente"
+
+#: royal-backup-reset.php:927
+msgid "Create a backup first?"
+msgstr "Primeiro, faça um backup?"
+
+#: royal-backup-reset.php:778
+msgid "This feature"
+msgstr "Esta característica"
+
+#: royal-backup-reset.php:775
+msgid "Are you absolutely sure you want to reset your WordPress database? <br>It will delete all your Content and Settings.. <br><br><strong>This action cannot be undone!</strong>"
+msgstr "Tem certeza absoluta de que deseja redefinir seu banco de dados do WordPress?<br> Isso apagará todo o seu conteúdo e configurações.<br><br> <strong>Esta ação não pode ser desfeita!</strong>"
+
+#: royal-backup-reset.php:668
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/premium-plugin-activation.php:46
+msgid "The Free Version of Royal Backup & Reset has been <strong>deactivated</strong> because the Premium version is now active. You can safely <strong>delete the Free Version</strong>."
+msgstr "A versão gratuita do Royal Backup &amp; Reset foi <strong>desativada</strong> porque a versão Premium já está ativa. Você pode <strong>excluir a versão gratuita</strong> sem problemas."
+
+#: includes/class-royalbr-tour.php:157
+msgid "Take Tour"
+msgstr "Fazer o tour"
+
+#: includes/class-royalbr-tour.php:140
+msgid "Use this reset icon in the admin bar for quick access to reset your database from anywhere!"
+msgstr "Use este ícone de redefinição na barra de administração para acessar rapidamente a redefinição do seu banco de dados de qualquer lugar!"
+
+#: includes/class-royalbr-tour.php:139
+msgid "Quick reset"
+msgstr "Reinicialização rápida"
+
+#: includes/class-royalbr-tour.php:136
+msgid "Use this backup icon in the admin bar for quick access to create backups from anywhere!"
+msgstr "Use este ícone de backup na barra de administração para acesso rápido e criação de backups de qualquer lugar!"
+
+#: includes/class-royalbr-tour.php:135
+msgid "Quick backup"
+msgstr "Backup rápido"
+
+#: includes/class-royalbr-tour.php:132
+msgid "Configure your backup and reset preferences in the settings tab."
+msgstr "Configure suas preferências de backup e restauração na aba de configurações."
+
+#: includes/class-royalbr-tour.php:131
+msgid "Plugin settings"
+msgstr "Configurações do plugin"
+
+#: includes/class-royalbr-tour.php:128
+msgid "Click here to reset your database. Be careful - this action cannot be undone!"
+msgstr "Clique aqui para redefinir seu banco de dados. Atenção: esta ação é irreversível!"
+
+#: includes/class-royalbr-tour.php:127
+msgid "Reset database button"
+msgstr "Botão Redefinir banco de dados"
+
+#: includes/class-royalbr-tour.php:124
+msgid "This tab allows you to reset your database to a fresh state."
+msgstr "Esta aba permite que você restaure seu banco de dados ao estado original."
+
+#: includes/class-royalbr-tour.php:123
+msgid "Reset database"
+msgstr "Banco de dados de redefinição"
+
+#: includes/class-royalbr-tour.php:120
+msgid "Use this tab to restore your website from a previous backup."
+msgstr "Use esta aba para restaurar seu site a partir de um backup anterior."
+
+#: includes/class-royalbr-tour.php:119
+msgid "Restore your website"
+msgstr "Restaure seu site"
+
+#: includes/class-royalbr-tour.php:116
+msgid "Click here to create your first backup and protect your website!"
+msgstr "Clique aqui para criar seu primeiro backup e proteger seu site!"
+
+#: includes/class-royalbr-tour.php:115
+msgid "Your first backup"
+msgstr "Seu primeiro backup"
+
+#: includes/class-royalbr-tour.php:111
+msgid "Press here to start!"
+msgstr "Clique aqui para iniciar!"
+
+#: includes/class-royalbr-tour.php:105
+msgid "Finish"
+msgstr "Terminar"
+
+#: includes/class-royalbr-tour.php:104
+msgid "Close"
+msgstr "Fechar"
+
+#: includes/class-royalbr-tour.php:103
+msgid "End tour"
+msgstr "Encerrar Tour"
+
+#: includes/class-royalbr-tour.php:102
+msgid "Skip this step"
+msgstr "Pular esta etapa"
+
+#: includes/class-royalbr-tour.php:101
+msgid "Back"
+msgstr "Voltar"
+
+#: includes/class-royalbr-tour.php:100
+msgid "Next"
+msgstr "Próximo"
+
+#: includes/class-royalbr-restore.php:5326
+#: includes/class-royalbr-restore.php:5348
+msgid "Could not copy file."
+msgstr "Não foi possível copiar o arquivo."
+
+#: includes/class-royalbr-restore.php:4881
+msgid "Could not create destination directory"
+msgstr "Não foi possível criar o diretório de destino."
+
+#: includes/class-royalbr-restore.php:4874
+msgid "Could not open zip file"
+msgstr "Não foi possível abrir o arquivo zip"
+
+#. translators: %s: Required disk space in MB
+#: includes/class-royalbr-restore.php:4392
+msgid "Insufficient disk space. Please free up at least %s MB of disk space before restoring this backup."
+msgstr "Espaço em disco insuficiente. Libere pelo menos %s MB de espaço em disco antes de restaurar este backup."
+
+#. translators: %s: Required disk space in MB
+#: includes/class-royalbr-restore.php:4384
+msgid "Insufficient disk space. Required: %s MB"
+msgstr "Espaço em disco insuficiente. Necessário: %s MB"
+
+#: includes/class-royalbr-reset.php:615
+msgid "Clearing media files..."
+msgstr "Limpando arquivos de mídia..."
+
+#: includes/class-royalbr-backup.php:3881
+msgid "Failed to finalize backup archive"
+msgstr "Falha ao finalizar o arquivo de backup"
+
+#: includes/class-royalbr-backup.php:3878
+msgid "Backup failed - insufficient disk space"
+msgstr "Falha no backup - espaço em disco insuficiente"
+
+#. translators: %s: remaining disk space
+#: includes/class-royalbr-backup.php:3868
+msgid "Your free disk space is very low - only %s remain"
+msgstr "Seu espaço livre em disco é muito baixo - restam apenas %s."
+
+#: includes/class-royalbr-backup.php:2703
+#: includes/class-royalbr-backup.php:3879 royal-backup-reset.php:5128
+msgid "remaining"
+msgstr "restando"
+
+#: includes/class-royalbr-backup.php:2702
+msgid "Insufficient disk space to continue backup"
+msgstr "Espaço em disco insuficiente para continuar o backup."
+
+#: includes/class-royalbr-backup.php:1503
+msgid "Error writing to database backup file"
+msgstr "Erro ao gravar no arquivo de backup do banco de dados"
+
+#: includes/class-royalbr-backup.php:1454
+msgid "Could not open database file for writing"
+msgstr "Não foi possível abrir o arquivo de banco de dados para escrita."
+
+#: includes/admin-page.php:912
+msgid "Full support for WordPress Multisite networks."
+msgstr "Suporte completo para redes WordPress Multisite."
+
+#: includes/admin-page.php:911
+msgid "Multisite Network Support"
+msgstr "Suporte a redes multisite"
+
+#: includes/admin-page.php:90 royal-backup-reset.php:3526
+#: royal-backup-reset.php:3531 royal-backup-reset.php:3928
+msgid "WordPress Core Files"
+msgstr "Arquivos principais do WordPress"
+
+#: includes/admin-page.php:904 includes/admin-page.php:918
+msgid "Coming Soon"
+msgstr "Em Breve"
+
+#: includes/admin-page.php:898
+msgid "Back up only what changed since your last backup, saving time and storage space."
+msgstr "Faça backup apenas do que foi alterado desde o último backup, economizando tempo e espaço de armazenamento."
+
+#: includes/admin-page.php:897
+msgid "Incremental Backups"
+msgstr "Cópias de segurança incrementais"
+
+#: includes/admin-page.php:884
+msgid "Get direct support from the developers whenever you need help."
+msgstr "Obtenha suporte direto dos desenvolvedores sempre que precisar de ajuda."
+
+#: includes/admin-page.php:883
+msgid "Priority Support"
+msgstr "Suporte Prioritário"
+
+#: includes/admin-page.php:842
+msgid "Save default settings for backup, restore, and reset operations so they are pre-selected every time."
+msgstr "Salve as configurações padrão para operações de backup, restauração e redefinição para que sejam pré-selecionadas sempre."
+
+#: includes/admin-page.php:841
+msgid "Save Preferences"
+msgstr "Salvar Preferências"
+
+#: includes/admin-page.php:856
+msgid "Full cleanup of the uploads folder during database reset for a completely fresh start."
+msgstr "Limpeza completa da pasta de uploads durante a reinicialização do banco de dados para um recomeço totalmente novo."
+
+#: includes/admin-page.php:828
+msgid "Choose specific components to restore - database, plugins, themes, or uploads individually."
+msgstr "Selecione os componentes específicos que deseja restaurar: banco de dados, plugins, temas ou uploads, individualmente."
+
+#: includes/admin-page.php:827
+msgid "Selective Restore"
+msgstr "Restauração Seletiva"
+
+#: includes/admin-page.php:814
+msgid "Choose specific components to backup - database, plugins, themes, or uploads individually."
+msgstr "Selecione componentes específicos para fazer backup: banco de dados, plugins, temas ou uploads individualmente."
+
+#: includes/admin-page.php:813
+msgid "Selective Backup"
+msgstr "Backup Seletivo"
+
+#: includes/admin-page.php:800
+msgid "Automatically delete old backups to save disk space while keeping recent ones."
+msgstr "Exclua automaticamente backups antigos para economizar espaço em disco, mantendo os mais recentes."
+
+#: includes/admin-page.php:799
+msgid "Backup Retention"
+msgstr "Retenção de backup"
+
+#: includes/admin-page.php:870
+msgid "Give backups custom names for easy identification and organization."
+msgstr "Atribua nomes personalizados aos backups para facilitar a identificação e organização."
+
+#: includes/admin-page.php:869
+msgid "Backup Rename"
+msgstr "Renomear backup"
+
+#: includes/admin-page.php:723 includes/admin-page.php:747
+#: includes/admin-page.php:761 includes/admin-page.php:775
+#: includes/admin-page.php:789 includes/admin-page.php:803
+#: includes/admin-page.php:817 includes/admin-page.php:831
+#: includes/admin-page.php:845 includes/admin-page.php:859
+#: includes/admin-page.php:873 includes/admin-page.php:887
+#: includes/admin-page.php:901 includes/admin-page.php:915
+msgid "No"
+msgstr "Não"
+
+#: includes/admin-page.php:720
+msgid "Automatically backup your site on a schedule - daily, weekly, or monthly."
+msgstr "Faça backup automático do seu site de acordo com uma programação - diária, semanal ou mensal."
+
+#: includes/admin-page.php:706
+msgid "Download backup files to your computer for safe offline storage."
+msgstr "Faça o download dos arquivos de backup para o seu computador para armazenamento offline seguro."
+
+#: includes/admin-page.php:705
+msgid "Backup Download"
+msgstr "Download de backup"
+
+#: includes/admin-page.php:692
+msgid "Reset WordPress database to a fresh install state for testing or cleanup."
+msgstr "Restaure o banco de dados do WordPress para um estado de instalação limpo para fins de teste ou limpeza."
+
+#: includes/admin-page.php:678
+msgid "Restore your site from any saved backup to recover from issues."
+msgstr "Restaure seu site a partir de qualquer backup salvo para se recuperar de problemas."
+
+#: includes/admin-page.php:677
+msgid "Manual Restore"
+msgstr "Restauração manual"
+
+#: includes/admin-page.php:664
+msgid "Create on-demand backups of your database and files whenever you need them."
+msgstr "Crie backups sob demanda do seu banco de dados e arquivos sempre que precisar deles."
+
+#: includes/admin-page.php:663
+msgid "Manual Backup"
+msgstr "Backup manual"
+
+#: includes/admin-page.php:656 includes/admin-page.php:929
+msgid "Upgrade Now"
+msgstr "Atualizar Agora"
+
+#: includes/admin-page.php:653 includes/admin-page.php:926
+msgid "Installed"
+msgstr "Instalado"
+
+#: includes/admin-page.php:653 includes/admin-page.php:667
+#: includes/admin-page.php:670 includes/admin-page.php:681
+#: includes/admin-page.php:684 includes/admin-page.php:695
+#: includes/admin-page.php:698 includes/admin-page.php:709
+#: includes/admin-page.php:712 includes/admin-page.php:726
+#: includes/admin-page.php:750 includes/admin-page.php:764
+#: includes/admin-page.php:778 includes/admin-page.php:792
+#: includes/admin-page.php:806 includes/admin-page.php:820
+#: includes/admin-page.php:834 includes/admin-page.php:848
+#: includes/admin-page.php:862 includes/admin-page.php:876
+#: includes/admin-page.php:890 includes/admin-page.php:926
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/admin-page.php:645
+msgid "Premium"
+msgstr "Premium"
+
+#: includes/admin-page.php:642
+msgid "Free"
+msgstr "Grátis"
+
+#: includes/admin-page.php:640
+msgid "Features Comparison"
+msgstr "Comparação de recursos"
+
+#: includes/admin-page.php:607
+msgid "Control how the Backup Reminder Popup behaves."
+msgstr "Controle o comportamento da janela pop-up de lembrete de backup."
+
+#: includes/admin-page.php:603
+msgid "Show Always"
+msgstr "Show Always"
+
+#: includes/admin-page.php:600
+msgid "Allow Dismiss"
+msgstr "Permitir Dispensar"
+
+#: includes/admin-page.php:596
+msgid "Backup Reminder Popup"
+msgstr "Janela pop-up de lembrete de backup"
+
+#: includes/admin-page.php:593
+msgid "Backup Reminder"
+msgstr "Lembrete de backup"
+
+#: includes/admin-page.php:585
+msgid "Upgrade to PRO to customize reset preferences."
+msgstr "Faça upgrade para a versão PRO para personalizar as preferências de redefinição."
+
+#: includes/admin-page.php:541
+msgid "Free version restores all available components. Upgrade to PRO to customize restore preferences."
+msgstr "A versão gratuita restaura todos os componentes disponíveis. Atualize para a versão PRO para personalizar as preferências de restauração."
+
+#: includes/admin-page.php:494
+msgid "These options will be pre-selected when creating a new backup."
+msgstr "Essas opções serão pré-selecionadas ao criar um novo backup."
+
+#: includes/admin-page.php:478
+msgid "Default Backup Content"
+msgstr "Conteúdo de backup padrão"
+
+#: includes/admin-page.php:420
+msgid "The next automatic database backup will run at this time"
+msgstr "O próximo backup automático do banco de dados será executado neste horário."
+
+#: includes/admin-page.php:413
+msgid "Number of database backups to retain (older backups will be automatically deleted)"
+msgstr "Número de backups do banco de dados a serem mantidos (os backups mais antigos serão excluídos automaticamente)"
+
+#: includes/admin-page.php:410
+msgid "Keep Database Backups"
+msgstr "Mantenha backups do banco de dados."
+
+#: includes/admin-page.php:406
+msgid "How often to automatically backup database"
+msgstr "Com que frequência devo fazer backup automático do banco de dados?"
+
+#: includes/admin-page.php:401
+msgid "Database Backup Schedule"
+msgstr "Agendamento de backup do banco de dados"
+
+#: includes/admin-page.php:396 royal-backup-reset.php:3066
+msgid "Scheduled Database Backup"
+msgstr "Backup agendado do banco de dados"
+
+#: includes/admin-page.php:389
+msgid "The next automatic files backup will run at this time"
+msgstr "O próximo backup automático de arquivos será executado neste momento."
+
+#: includes/admin-page.php:388 includes/admin-page.php:419
+msgid "No backup scheduled"
+msgstr "Nenhum backup agendado"
+
+#: includes/admin-page.php:386 includes/admin-page.php:417
+msgid "Next Scheduled"
+msgstr "Próximo agendado"
+
+#: includes/admin-page.php:382
+msgid "Number of file backups to retain (older backups will be automatically deleted)"
+msgstr "Número de backups de arquivos a serem mantidos (os backups mais antigos serão excluídos automaticamente)"
+
+#: includes/admin-page.php:379
+msgid "Keep File Backups"
+msgstr "Mantenha backups dos arquivos"
+
+#: includes/admin-page.php:375
+msgid "How often to automatically backup files (plugins, themes, uploads, others)"
+msgstr "Com que frequência devo fazer backup automático de arquivos (plugins, temas, uploads, outros)?"
+
+#: includes/admin-page.php:373 includes/admin-page.php:404
+msgid "Manual only"
+msgstr "Somente manual"
+
+#: includes/admin-page.php:370
+msgid "Files Backup Schedule"
+msgstr "Agendamento de backup de arquivos"
+
+#: includes/admin-page.php:365 royal-backup-reset.php:3024
+msgid "Scheduled Files Backup"
+msgstr "Backup de arquivos agendado"
+
+#: includes/admin-page.php:361 includes/admin-page.php:719
+msgid "Scheduled Backups"
+msgstr "Backups agendados"
+
+#: includes/admin-page.php:304
+msgid "(removes all files in wp-content/uploads)"
+msgstr "(remove todos os arquivos em wp-content/uploads)"
+
+#: includes/admin-page.php:294 includes/admin-page.php:299
+#: includes/admin-page.php:578 includes/admin-page.php:855
+msgid "Clear Uploads Directory"
+msgstr "Limpar diretório de uploads"
+
+#: includes/admin-page.php:284 includes/admin-page.php:574
+msgid "Clear Media Files"
+msgstr "Limpar arquivos de mídia"
+
+#: includes/admin-page.php:119
+msgid "Backup Failed"
+msgstr "Falha no backup"
+
+#: includes/admin-page.php:79 royal-backup-reset.php:3520
+msgid "Include Site Files"
+msgstr "Incluir arquivos do site"
+
+#: includes/admin-page.php:92 includes/admin-page.php:214
+#: includes/admin-page.php:301 includes/admin-page.php:366
+#: includes/admin-page.php:397 includes/admin-page.php:436
+#: includes/admin-page.php:473 includes/admin-page.php:508
+#: includes/admin-page.php:552 royal-backup-reset.php:3533
+#: royal-backup-reset.php:3860 royal-backup-reset.php:3930
+#: royal-backup-reset.php:3949
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/admin-page.php:47
+msgid "Free vs Pro"
+msgstr "Grátis vs Pro"
+
+#: includes/admin-page.php:19
+msgid "This plugin does not support WordPress Multisite yet, but it is coming soon!"
+msgstr "Este plugin ainda não é compatível com o WordPress Multisite, mas essa funcionalidade estará disponível em breve!"
+
+#: includes/admin-page.php:18
+msgid "Multisite Not Supported Yet"
+msgstr "Multisite ainda não é suportado."
+
+#. translators: %d: Part number for chunked backup file
+#: royal-backup-reset.php:1750
+msgid " Part %d"
+msgstr " Parte %d"
+
+#: royal-backup-reset.php:779
+msgid "is a PRO feature. Upgrade to unlock this and other premium features."
+msgstr "e um recurso PRO. Atualize para desbloquear este e outros recursos premium."
+
+#: includes/class-royalbr-tour.php:108
+msgid "your complete backup, restore and reset solution!"
+msgstr "sua solução completa para backup, restauração e redefinição!"
+
+#: royal-backup-reset.php:5317
+msgid "Theme"
+msgstr "Tema"
+
+#: royal-backup-reset.php:5312
+msgid "Plugin"
+msgstr "Plugin"
+
+#: royal-backup-reset.php:4504
+msgid "Return to Admin Page"
+msgstr "Voltar à página de administração"
+
+#: includes/admin-page.php:129 includes/admin-page.php:336
+#: royal-backup-reset.php:3616 royal-backup-reset.php:4503
+msgid "View Log"
+msgstr "Ver registo"
+
+#: royal-backup-reset.php:4490
+msgid "Complete"
+msgstr "Completo"
+
+#: royal-backup-reset.php:4484
+msgid "Removing temporary files"
+msgstr "Removendo arquivos temporários"
+
+#: royal-backup-reset.php:4483
+msgid "Cleanup"
+msgstr "Limpar"
+
+#: royal-backup-reset.php:4461
+msgid "Verification"
+msgstr "Verificação"
+
+#: royal-backup-reset.php:4456
+msgid "Please do NOT reload the page open until the process is complete."
+msgstr "Por favor, NÃO recarregue a página aberta até que o processo esteja concluído."
+
+#. translators: %s: Task ID for the restore operation
+#: royal-backup-reset.php:4455
+msgid "Restoration has started (Task: %s)."
+msgstr "A restauração foi iniciada (Tarefa: %s)."
+
+#: royal-backup-reset.php:4446
+msgid "Archive"
+msgstr "Arquivo"
+
+#: royal-backup-reset.php:4446
+msgid "Site Restoration In Progress"
+msgstr "Restauração do local em andamento"
+
+#: royal-backup-reset.php:4444
+msgid "This could interfere with the restoration process."
+msgstr "Isso pode interferir no processo de restauração."
+
+#: royal-backup-reset.php:4444
+msgid "Alert: If this message remains visible after page load, there may be a JavaScript issue."
+msgstr "Atenção: Se esta mensagem permanecer visível após o carregamento da página, pode haver um problema com o JavaScript."
+
+#: royal-backup-reset.php:4414
+msgid "Royal Backup & Reset - Restore Process"
+msgstr "Backup e restauração Royal - Processo de restauração"
+
+#: royal-backup-reset.php:4404
+msgid "Finalizing restoration and cleaning up"
+msgstr "Finalizando a restauração e a limpeza."
+
+#: royal-backup-reset.php:4403
+msgid "Restoring additional content and configurations"
+msgstr "Restauração de conteúdo e configurações adicionais"
+
+#: royal-backup-reset.php:4402
+msgid "Restoring media library and uploaded files"
+msgstr "Restaurando a biblioteca de mídia e os arquivos enviados."
+
+#: royal-backup-reset.php:4401
+msgid "Restoring theme files and configurations"
+msgstr "Restaurando arquivos e configurações do tema"
+
+#: royal-backup-reset.php:4400
+msgid "Extracting and installing plugin files"
+msgstr "Extraindo e instalando arquivos de plugin"
+
+#: royal-backup-reset.php:4399
+msgid "Restoring database tables and content"
+msgstr "Restauração de tabelas e conteúdo do banco de dados"
+
+#: royal-backup-reset.php:4398
+msgid "Checking backup integrity and file availability"
+msgstr "Verificação da integridade do backup e da disponibilidade do arquivo."
+
+#: royal-backup-reset.php:4375
+msgid "Restoration task data is corrupted."
+msgstr "Os dados da tarefa de restauração estão corrompidos."
+
+#: royal-backup-reset.php:4367
+msgid "Restoration task could not be located."
+msgstr "Não foi possível localizar a tarefa de restauração."
+
+#: royal-backup-reset.php:4328 royal-backup-reset.php:4335
+#: royal-backup-reset.php:4350
+msgid "Restoration process failed"
+msgstr "O processo de restauração falhou"
+
+#: royal-backup-reset.php:4136
+msgid "Restoration request is invalid."
+msgstr "A solicitação de restauração é inválida."
+
+#: royal-backup-reset.php:4098
+msgid "Backup timestamp parameter is missing."
+msgstr "O parâmetro de carimbo de data/hora de backup está ausente."
+
+#: royal-backup-reset.php:3175
+msgid "Could not find backup log - backup may have already finished."
+msgstr "Não foi possível encontrar o registro de backup - o backup pode já ter sido concluído."
+
+#: royal-backup-reset.php:3173
+msgid "Backup stop requested."
+msgstr "Parada de backup solicitada."
+
+#: royal-backup-reset.php:3161
+msgid "Could not find that task - perhaps it has already finished?"
+msgstr "Não foi possível encontrar essa tarefa - talvez ela já tenha sido concluída?"
+
+#: royal-backup-reset.php:3125
+msgid "Log file not found or not readable."
+msgstr "Arquivo de log não encontrado ou ilegível."
+
+#: royal-backup-reset.php:3120
+msgid "Log file is not in backup directory."
+msgstr "O arquivo de log não está no diretório de backup."
+
+#: royal-backup-reset.php:3117
+msgid "Invalid backup directory path."
+msgstr "Caminho do diretório de backup inválido."
+
+#: royal-backup-reset.php:3114
+msgid "Invalid log file path - file does not exist."
+msgstr "Caminho do arquivo de log inválido - o arquivo não existe."
+
+#: royal-backup-reset.php:3104
+msgid "No log file specified."
+msgstr "Nenhum arquivo de registro especificado."
+
+#. translators: %1$s: log file path, %2$s: backup nonce
+#: royal-backup-reset.php:2881
+msgid "Log file not found. Looking for: %1$s (nonce: %2$s)"
+msgstr "Arquivo de log não encontrado. Procurando por: %1$s (nonce: %2$s)"
+
+#: royal-backup-reset.php:2876
+msgid "Log file is empty (backup may still be in progress or just started)."
+msgstr "O arquivo de log está vazio (o backup pode ainda estar em andamento ou ter acabado de ser iniciado)."
+
+#: royal-backup-reset.php:2874 royal-backup-reset.php:3133
+msgid "Error reading log file."
+msgstr "Erro ao ler o arquivo de log."
+
+#: royal-backup-reset.php:2858 royal-backup-reset.php:2920
+msgid "Invalid backup nonce."
+msgstr "Nonce de backup inválido."
+
+#: royal-backup-reset.php:2549
+msgid "Settings saved successfully."
+msgstr "Configurações Salvas com Sucesso."
+
+#: royal-backup-reset.php:2454
+msgid "No settings provided."
+msgstr "Nenhuma configuração fornecida."
+
+#: royal-backup-reset.php:2333
+msgid "Your WordPress database has been restored to factory settings. Your admin account remains active."
+msgstr "Seu banco de dados do WordPress foi restaurado para as configurações de fábrica. Sua conta de administrador permanece ativa."
+
+#: royal-backup-reset.php:2332
+msgid "Database Reset Complete!"
+msgstr "Reinicialização do banco de dados concluída!"
+
+#. translators: %d: Number of files deleted
+#: royal-backup-reset.php:2136 royal-backup-reset.php:2203
+msgid "Backup session deleted successfully (%d files)."
+msgstr "Sessão de backup excluída com sucesso (%d arquivos)."
+
+#. translators: %s: Filename that failed to delete
+#: royal-backup-reset.php:2074 royal-backup-reset.php:2087
+#: royal-backup-reset.php:2099 royal-backup-reset.php:2170
+#: royal-backup-reset.php:2183
+msgid "Failed to delete %s"
+msgstr "Falha ao excluir %s"
+
+#: royal-backup-reset.php:2010 royal-backup-reset.php:4393
+#: royal-backup-reset.php:5339
+msgid "Others"
+msgstr "Outros"
+
+#: royal-backup-reset.php:2009 royal-backup-reset.php:4392
+#: royal-backup-reset.php:5321
+msgid "Uploads"
+msgstr "Envios"
+
+#: royal-backup-reset.php:2008 royal-backup-reset.php:4391
+#: royal-backup-reset.php:5316
+msgid "Themes"
+msgstr "Temas"
+
+#: royal-backup-reset.php:2007 royal-backup-reset.php:4390
+#: royal-backup-reset.php:5311
+msgid "Plugins"
+msgstr "Plugins"
+
+#: royal-backup-reset.php:2006 royal-backup-reset.php:4389
+msgid "Database"
+msgstr "Banco de dados"
+
+#: royal-backup-reset.php:1797 royal-backup-reset.php:1964
+msgid "Remove"
+msgstr "Remover"
+
+#: royal-backup-reset.php:1794 royal-backup-reset.php:1961
+msgid "Restore"
+msgstr "Restaurar"
+
+#: royal-backup-reset.php:1727
+msgid "Download components"
+msgstr "Baixar componentes"
+
+#: royal-backup-reset.php:1560
+msgid "Available Actions"
+msgstr "Ações Disponíveis"
+
+#: royal-backup-reset.php:1559
+msgid "Included Content"
+msgstr "Conteúdo incluído"
+
+#: royal-backup-reset.php:1558 royal-backup-reset.php:1862
+msgid "Created On"
+msgstr "Criado em"
+
+#: royal-backup-reset.php:1557 royal-backup-reset.php:1861
+msgid "Backup ID"
+msgstr "ID Backup"
+
+#: royal-backup-reset.php:1549
+msgid "No backups available yet. Use the \"Create Backup\" tab to generate your first backup."
+msgstr "Ainda não há backups disponíveis. Use a aba \"Criar backup\" para gerar seu primeiro backup."
+
+#: royal-backup-reset.php:1282
+msgid "Requested file does not exist."
+msgstr "O arquivo solicitado não existe."
+
+#: royal-backup-reset.php:1275
+msgid "Filename parameter is missing."
+msgstr "O parâmetro de nome de arquivo está ausente."
+
+#: royal-backup-reset.php:1269
+msgid "Permission denied."
+msgstr "Permissão negada."
+
+#: royal-backup-reset.php:1224
+msgid "Unknown error occurred during restore"
+msgstr "Ocorreu um erro desconhecido durante a restauração."
+
+#: royal-backup-reset.php:1137
+msgid "No backup timestamp specified."
+msgstr "Nenhuma data e hora de backup especificada."
+
+#: royal-backup-reset.php:981 royal-backup-reset.php:999
+#: royal-backup-reset.php:1017 royal-backup-reset.php:1034
+#: royal-backup-reset.php:1133 royal-backup-reset.php:1238
+#: royal-backup-reset.php:2217 royal-backup-reset.php:2256
+#: royal-backup-reset.php:2414 royal-backup-reset.php:2446
+#: royal-backup-reset.php:2559 royal-backup-reset.php:2577
+#: royal-backup-reset.php:2591 royal-backup-reset.php:2609
+#: royal-backup-reset.php:2626 royal-backup-reset.php:2643
+#: royal-backup-reset.php:2709 royal-backup-reset.php:2777
+#: royal-backup-reset.php:2843 royal-backup-reset.php:2906
+#: royal-backup-reset.php:2959 royal-backup-reset.php:3012
+#: royal-backup-reset.php:3054 royal-backup-reset.php:3096
+#: royal-backup-reset.php:3153 royal-backup-reset.php:3188
+#: royal-backup-reset.php:3210 royal-backup-reset.php:3248
+#: royal-backup-reset.php:3296 royal-backup-reset.php:3411
+#: royal-backup-reset.php:3462 royal-backup-reset.php:3575
+#: royal-backup-reset.php:3641 royal-backup-reset.php:3704
+#: royal-backup-reset.php:3764 royal-backup-reset.php:3835
+#: royal-backup-reset.php:3991 royal-backup-reset.php:4055
+msgid "Unauthorized access."
+msgstr "Acesso não autorizado."
+
+#: royal-backup-reset.php:962
+msgid "Access denied. You do not have permission to view this page."
+msgstr "Acesso negado. Você não tem permissão para visualizar esta página."
+
+#: royal-backup-reset.php:777
+msgid "Please wait, do not close this page..."
+msgstr "Aguarde, não feche esta página..."
+
+#: royal-backup-reset.php:776
+msgid "Resetting database..."
+msgstr "Reiniciando o banco de dados..."
+
+#: royal-backup-reset.php:774
+msgid "Confirm Database Reset"
+msgstr "Confirmar redefinição do banco de dados"
+
+#: royal-backup-reset.php:773
+msgid "Database reset failed"
+msgstr "A reinicialização do banco de dados falhou"
+
+#: royal-backup-reset.php:772
+msgid "Database reset completed successfully"
+msgstr "Reinicialização do banco de dados concluída com sucesso."
+
+#: royal-backup-reset.php:771
+msgid "No backups found. Create your first backup using the \"Backup Website\" tab."
+msgstr "Nenhum backup encontrado. Crie seu primeiro backup usando a aba \"Backup do Site\"."
+
+#. translators: %s: Backup filename
+#: royal-backup-reset.php:770
+msgid "Are you sure you want to delete the backup \"%s\"? This action cannot be undone."
+msgstr "Tem certeza de que deseja excluir o backup \"%s\"? Esta ação não pode ser desfeita."
+
+#: royal-backup-reset.php:768
+msgid "Confirm Delete"
+msgstr "Confirmar exclusão"
+
+#. translators: %s: Backup filename
+#: royal-backup-reset.php:767
+msgid "Are you sure you want to restore from backup \"%s\"? This will overwrite your current website data."
+msgstr "Tem certeza de que deseja restaurar a partir do backup \"%s\"? Isso substituirá os dados atuais do seu site."
+
+#: royal-backup-reset.php:765
+msgid "Confirm Restore"
+msgstr "Confirmar restauração"
+
+#: royal-backup-reset.php:764
+msgid "An error occurred. Please try again."
+msgstr "Ocorreu um erro, tente novamente."
+
+#: royal-backup-reset.php:763
+msgid "Backup deletion failed"
+msgstr "A exclusão do backup falhou"
+
+#: royal-backup-reset.php:762
+msgid "Backup deleted successfully"
+msgstr "Cópia de segurança excluída com sucesso"
+
+#: royal-backup-reset.php:761
+msgid "Backup restoration failed"
+msgstr "A restauração do backup falhou"
+
+#: royal-backup-reset.php:760
+msgid "Backup restored successfully"
+msgstr "Cópia de segurança restaurada com sucesso"
+
+#: royal-backup-reset.php:759
+msgid "Backup creation failed"
+msgstr "A criação do backup falhou"
+
+#: royal-backup-reset.php:758
+msgid "Backup created successfully"
+msgstr "Cópia de segurança criada com sucesso"
+
+#: royal-backup-reset.php:757 royal-backup-reset.php:3608
+msgid "Backup completed successfully!"
+msgstr "Cópia de segurança concluída com sucesso!"
+
+#: royal-backup-reset.php:756
+msgid "Preparing backup..."
+msgstr "Preparando backup..."
+
+#. translators: 1: Last database error, 2: Last executed SQL query.
+#: includes/database/class-royalbr-db-schema-inspector.php:225
+msgid "An error occurred while attempting to retrieve the routine SQL/DDL statement (%1$s %2$s)"
+msgstr "Ocorreu um erro ao tentar recuperar a instrução SQL/DDL da rotina (%1$s %2$s)"
+
+#. translators: 1: Last database error, 2: Additional error details.
+#: includes/database/class-royalbr-db-schema-inspector.php:203
+msgid "An error occurred while attempting to retrieve routine status (%1$s %2$s)"
+msgstr "Ocorreu um erro ao tentar recuperar o status da rotina (%1$s %2$s)"
+
+#. translators: 1: Last database error, 2: SQL create function statement.
+#: includes/database/class-royalbr-db-schema-inspector.php:182
+msgid "An error occurred while attempting to check the support of stored routines creation (%1$s %2$s)"
+msgstr "Ocorreu um erro ao tentar verificar o suporte à criação de rotinas armazenadas (%1$s %2$s)"
+
+#: includes/class-royalbr-restore.php:5427
+msgid "Failed to delete backup file"
+msgstr "Falha ao excluir o arquivo de backup"
+
+#: includes/class-royalbr-restore.php:5219
+msgid "Failed to move file"
+msgstr "Falha ao mover o arquivo"
+
+#: includes/class-royalbr-restore.php:5216
+msgid "Failed to move directory"
+msgstr "Falha ao mover o diretório"
+
+#: includes/class-royalbr-restore.php:5205
+msgid "Failed to copy directory contents"
+msgstr "Falha ao copiar o conteúdo do diretório"
+
+#: includes/class-royalbr-restore.php:5112
+msgid "The directory does not exist"
+msgstr "O diretório não existe"
+
+#: includes/class-royalbr-restore.php:5108
+msgid "The directory does not exist, and the attempt to create it failed"
+msgstr "O diretório não existe e não foi possível criá-lo"
+
+#: includes/class-royalbr-restore.php:5078
+msgid "Unknown entity type"
+msgstr "Tipo de entidade desconhecido"
+
+#: includes/class-royalbr-restore.php:5050
+msgid "Failed to create working directory"
+msgstr "Falha ao criar o diretório de trabalho"
+
+#: includes/class-royalbr-restore.php:5043
+msgid "Failed to create upgrade directory"
+msgstr "Falha ao criar o diretório de atualização."
+
+#: includes/class-royalbr-restore.php:4844
+msgid "Unsupported archive format"
+msgstr "Formato de arquivo não suportado"
+
+#: includes/class-royalbr-restore.php:4747
+msgid "Could not find source directory in backup"
+msgstr "Não foi possível encontrar o diretório de origem no backup."
+
+#: includes/class-royalbr-restore.php:4661
+#: includes/class-royalbr-restore.php:4712
+#: includes/class-royalbr-restore.php:4779
+msgid "Failed to move files into place"
+msgstr "Falha ao mover os arquivos para o local correto."
+
+#: includes/class-royalbr-restore.php:4635
+#: includes/class-royalbr-restore.php:4686
+#: includes/class-royalbr-restore.php:4741
+msgid "Could not determine target directory"
+msgstr "Não foi possível determinar o diretório de destino."
+
+#: includes/class-royalbr-restore.php:4611
+#: includes/class-royalbr-restore.php:5419
+msgid "Backup file not found"
+msgstr "Arquivo de backup não encontrado"
+
+#: includes/class-royalbr-restore.php:4519
+msgid "Failed to copy database file"
+msgstr "Falha ao copiar o arquivo de banco de dados"
+
+#: includes/class-royalbr-restore.php:4505
+msgid "Failed to create a temporary directory"
+msgstr "Falha ao criar um diretório temporário"
+
+#: includes/class-royalbr-restore.php:4455
+msgid "Restore failed"
+msgstr "Falha ao efetuar restauro"
+
+#: includes/class-royalbr-restore.php:4451
+msgid "Restore completed successfully"
+msgstr "Restauração concluída com sucesso."
+
+#: includes/class-royalbr-restore.php:4436
+msgid "Return to Royal Backup & Reset"
+msgstr "Voltar ao Backup Real e Redefinir"
+
+#: includes/class-royalbr-restore.php:4336
+msgid "ABORT: Could not find the information on which entities to restore."
+msgstr "INTERROMPIDO: Não foi possível encontrar as informações sobre quais entidades restaurar."
+
+#: includes/class-royalbr-restore.php:4315
+msgid "Timestamp:"
+msgstr "Data e hora:"
+
+#: includes/class-royalbr-restore.php:4315
+msgid "This backup does not exist in the backup history - restoration aborted."
+msgstr "Este backup não existe no histórico de backups. Restauração interrompida."
+
+#: includes/class-royalbr-restore.php:3949
+msgid "Backup set information not found"
+msgstr "Informações do conjunto de backup não encontradas"
+
+#: includes/class-royalbr-restore.php:1882
+msgid "Error:"
+msgstr "Erro:"
+
+#: includes/class-royalbr-restore.php:1877
+msgid "Please supply the requested information, and then continue."
+msgstr "Forneça as informações solicitadas e continue."
+
+#. translators: %s: SQL line details including length, max packet size, and
+#. preview
+#: includes/class-royalbr-restore.php:1763
+msgid "An SQL line that is larger than the maximum packet size and cannot be split was found; this line will not be processed, but will be dropped: %s"
+msgstr "Foi encontrada uma linha SQL maior que o tamanho máximo do pacote e que não pode ser dividida. Esta linha não será processada e será descartada: %s"
+
+#. translators: %s: SQL line details including length, max packet size, and
+#. preview
+#: includes/class-royalbr-restore.php:1763
+msgid "Warning:"
+msgstr "Atenção:"
+
+#. translators: 1: MySQL error message, 2: MySQL query that failed
+#: includes/class-royalbr-restore.php:1732
+msgid "An error occurred while attempting to set a new value to the MySQL global log_bin_trust_function_creators variable (%1$s - %2$s)"
+msgstr "Ocorreu um erro ao tentar definir um novo valor para a variável global do MySQL log_bin_trust_function_creators (%1$s - %2$s)"
+
+#. translators: 1: MySQL error message, 2: MySQL query that failed
+#: includes/class-royalbr-restore.php:1713
+msgid "An error occurred while attempting to retrieve the MySQL global log_bin_trust_function_creators variable (%1$s - %2$s)"
+msgstr "Ocorreu um erro ao tentar recuperar a variável global do MySQL log_bin_trust_function_creators (%1$s - %2$s)"
+
+#: includes/class-royalbr-restore.php:1111
+msgid "Failed to read working directory"
+msgstr "Falha ao ler o diretório de trabalho"
+
+#: includes/class-royalbr-restore.php:1110
+msgid "Failed to read manifest"
+msgstr "Falha ao ler o manifesto"
+
+#: includes/class-royalbr-restore.php:1109
+msgid "Manifest not found"
+msgstr "Manifesto não encontrado"
+
+#: includes/class-royalbr-restore.php:1108
+msgid "Failed to move new data"
+msgstr "Falha ao mover novos dados"
+
+#: includes/class-royalbr-restore.php:1107
+msgid "Move failed"
+msgstr "A movimentação falhou"
+
+#: includes/class-royalbr-restore.php:1106
+msgid "Failed to delete old data"
+msgstr "Falha ao excluir dados antigos"
+
+#: includes/class-royalbr-restore.php:1105
+msgid "Failed to move old data"
+msgstr "Falha ao mover dados antigos"
+
+#: includes/class-royalbr-restore.php:1104
+msgid "Moving old data"
+msgstr "Movendo dados antigos"
+
+#: includes/class-royalbr-restore.php:1103
+msgid "Restoration not possible"
+msgstr "Restauração não possível"
+
+#: includes/class-royalbr-restore.php:1102
+msgid "Restoring database"
+msgstr "Restaurando o banco de dados"
+
+#: includes/class-royalbr-restore.php:1101
+msgid "Copy failed"
+msgstr "Falhou em copiar"
+
+#: includes/class-royalbr-restore.php:1100
+msgid "Database decrypted"
+msgstr "Banco de dados descriptografado"
+
+#: includes/class-royalbr-restore.php:1099
+msgid "Decrypting database"
+msgstr "Descriptografando o banco de dados"
+
+#: includes/class-royalbr-restore.php:1098
+msgid "Unpacking backup"
+msgstr "Descompactando o backup"
+
+#: includes/class-royalbr-reset.php:640
+msgid "Database reset completed successfully. You are still logged in as the administrator."
+msgstr "A reinicialização do banco de dados foi concluída com sucesso. Você ainda está conectado como administrador."
+
+#: includes/class-royalbr-reset.php:630
+msgid "Reset complete!"
+msgstr "Reinicialização concluída!"
+
+#: includes/class-royalbr-reset.php:605
+msgid "Clearing uploads folder..."
+msgstr "Limpando a pasta de uploads..."
+
+#: includes/class-royalbr-reset.php:493
+msgid "Reactivating plugins..."
+msgstr "Reativando plugins..."
+
+#: includes/class-royalbr-reset.php:475
+msgid "Reactivating theme..."
+msgstr "Reativando o tema..."
+
+#. translators: %s: Error message describing why the database reset failed
+#: includes/class-royalbr-reset.php:381
+msgid "Database reset failed: %s"
+msgstr "Falha na reinicialização do banco de dados: %s"
+
+#: includes/class-royalbr-reset.php:369
+msgid "Creating fresh database..."
+msgstr "Criando um novo banco de dados..."
+
+#: includes/class-royalbr-reset.php:338
+msgid "Dropping database tables..."
+msgstr "Excluindo tabelas do banco de dados..."
+
+#: includes/class-royalbr-reset.php:329
+msgid "Reset failed. Unable to find current user."
+msgstr "A reinicialização falhou. Não foi possível encontrar o usuário atual."
+
+#: includes/class-royalbr-reset.php:246
+msgid "Preparing reset..."
+msgstr "Preparando a reinicialização..."
+
+#: includes/class-royalbr-reset.php:232
+msgid "You do not have permission to perform this action."
+msgstr "Você não tem permissão para executar esta ação."
+
+#: royal-backup-reset.php:3663 royal-backup-reset.php:4517
+msgid "Activity Log"
+msgstr "Log de Atividades"
+
+#: royal-backup-reset.php:3919
+msgid "Restore remaining wp-content items."
+msgstr "Restaurar os itens restantes da pasta wp-content."
+
+#: royal-backup-reset.php:3918
+msgid "Additional Files"
+msgstr "Arquivos adicionais"
+
+#: royal-backup-reset.php:3901
+msgid "Restore entire wp-content/themes folder."
+msgstr "Restaurar toda a pasta wp-content/themes."
+
+#: royal-backup-reset.php:3892
+msgid "Restore entire wp-content/plugins folder."
+msgstr "Restaurar toda a pasta wp-content/plugins."
+
+#: royal-backup-reset.php:3874
+msgid "Select Everything"
+msgstr "Selecione Tudo"
+
+#: royal-backup-reset.php:3858 royal-backup-reset.php:3869
+msgid "Choose Items to Restore"
+msgstr "Selecione os itens a serem restaurados"
+
+#: royal-backup-reset.php:3550 royal-backup-reset.php:3738
+msgid "Proceed"
+msgstr "Prosseguir"
+
+#: royal-backup-reset.php:3725
+msgid "Please Confirm"
+msgstr "Por favor confirme"
+
+#: includes/admin-page.php:615
+msgid "Save Configuration"
+msgstr "Salvar Configuração"
+
+#: includes/admin-page.php:583
+msgid "These choices will be automatically applied during database reset."
+msgstr "Essas opções serão aplicadas automaticamente durante a reinicialização do banco de dados."
+
+#: includes/admin-page.php:562
+msgid "Restore Current Theme"
+msgstr "Restaurar tema atual"
+
+#: includes/admin-page.php:557
+msgid "Post-Reset Actions"
+msgstr "Ações pós-reinicialização"
+
+#: includes/admin-page.php:550 includes/admin-page.php:559
+msgid "Reset Preferences"
+msgstr "Redefinir preferências"
+
+#: includes/admin-page.php:539
+msgid "These items will be automatically selected during restore operations."
+msgstr "Esses itens serão selecionados automaticamente durante as operações de restauração."
+
+#: includes/admin-page.php:534
+msgid "Other Content"
+msgstr "Outros conteúdos"
+
+#: includes/admin-page.php:530 royal-backup-reset.php:3909
+msgid "Media Uploads"
+msgstr "Envios de mídia"
+
+#: includes/admin-page.php:526 royal-backup-reset.php:3900
+msgid "Theme Files"
+msgstr "Arquivos do Tema"
+
+#: includes/admin-page.php:522 royal-backup-reset.php:3891
+msgid "Plugin Files"
+msgstr "Arquivos do Plugin"
+
+#: includes/admin-page.php:513
+msgid "Items to Restore"
+msgstr "Itens para restaurar"
+
+#: includes/admin-page.php:506 includes/admin-page.php:515
+msgid "Restore Preferences"
+msgstr "Restaurar preferências"
+
+#: includes/admin-page.php:487
+msgid "Include site files (plugins, themes, uploads, others) by default"
+msgstr "Incluir arquivos do site (plugins, temas, uploads, outros) por padrão"
+
+#: includes/admin-page.php:471 includes/admin-page.php:480
+#: includes/admin-page.php:485 includes/admin-page.php:490
+msgid "Backup Preferences"
+msgstr "Preferências de backup"
+
+#: includes/admin-page.php:346
+msgid "Set default preferences for backup, restore, and reset actions. Your choices here will be automatically applied when you access each feature."
+msgstr "Defina as preferências padrão para ações de backup, restauração e redefinição. Suas escolhas aqui serão aplicadas automaticamente ao acessar cada recurso."
+
+#: includes/admin-page.php:345
+msgid "Configuration Options"
+msgstr "Opções de configuração"
+
+#: includes/admin-page.php:333
+msgid "Processing database reset..."
+msgstr "Processando reinicialização do banco de dados..."
+
+#: includes/admin-page.php:324
+msgid "Perform Database Reset"
+msgstr "Executar a redefinição do banco de dados"
+
+#: includes/admin-page.php:316
+msgid "I acknowledge this is permanent and will erase all my site content"
+msgstr "Reconheço que esta alteração é permanente e apagará todo o conteúdo do meu site."
+
+#: includes/admin-page.php:311
+msgid "Safety Confirmation"
+msgstr "Confirmação de segurança"
+
+#: includes/admin-page.php:275 includes/admin-page.php:570
+msgid "Keep Royal Backup & Reset active"
+msgstr "Mantenha o Royal Backup & Reset ativo."
+
+#. translators: %s: Active theme name
+#: includes/admin-page.php:253
+msgid "Restore Current Theme - %s"
+msgstr "Restaurar tema atual - %s"
+
+#: includes/admin-page.php:227
+msgid "Database Reset Tool"
+msgstr "Ferramenta de redefinição de banco de dados"
+
+#: includes/admin-page.php:140
+msgid "Choose a backup to restore your site to a previous point in time. This operation will replace your current site data."
+msgstr "Escolha um backup para restaurar seu site a um ponto anterior no tempo. Essa operação substituirá os dados atuais do seu site."
+
+#: includes/admin-page.php:139
+msgid "Saved Backups"
+msgstr "Cópias de segurança salvas"
+
+#: includes/admin-page.php:130
+msgid "Stop Backup"
+msgstr "Parar backup"
+
+#: includes/admin-page.php:130
+msgid "Note: Progress tracking is stage-based. Only stop if you encounter an actual issue."
+msgstr "Observação: o acompanhamento do progresso é baseado em etapas. Pare somente se encontrar um problema real."
+
+#: royal-backup-reset.php:3809
+msgid "View Activity Log"
+msgstr "Visualizar registro de atividades"
+
+#: includes/admin-page.php:112
+msgid "Initializing backup process..."
+msgstr "Iniciando o processo de backup..."
+
+#: includes/admin-page.php:103 royal-backup-reset.php:3488
+msgid "Start Backup Process"
+msgstr "Iniciar processo de backup"
+
+#: includes/admin-page.php:63 includes/admin-page.php:68
+#: includes/admin-page.php:518 royal-backup-reset.php:3504
+#: royal-backup-reset.php:3509 royal-backup-reset.php:3882
+msgid "Database Content"
+msgstr "Conteúdo do banco de dados"
+
+#: includes/admin-page.php:56
+msgid "directory."
+msgstr "diretório."
+
+#: includes/admin-page.php:56
+msgid "Generate a full backup of your site including database and files. Backups are saved in the"
+msgstr "Gere um backup completo do seu site, incluindo banco de dados e arquivos. Os backups são salvos em"
+
+#: includes/admin-page.php:43
+msgid "Configuration"
+msgstr "Configuração"
+
+#: includes/admin-page.php:40 includes/admin-page.php:691
+msgid "Database Reset"
+msgstr "Redefinição do banco de dados"
+
+#: includes/admin-page.php:34
+msgid "Restore Site"
+msgstr "Restaure este item"
+
+#: includes/admin-page.php:31
+msgid "Create Backup"
+msgstr "Criar backup"
+
+#. Author of the plugin
+#: royal-backup-reset.php
+msgid "wproyal"
+msgstr "wproyal"
+
+#. Description of the plugin
+#: royal-backup-reset.php
+msgid "Complete backup, restore and reset functionality for WordPress websites."
+msgstr "Funcionalidade completa de backup, restauração e redefinição para sites WordPress."
+
+#. Plugin URI of the plugin
+#: royal-backup-reset.php
+msgid "http://wordpress.org/plugins/royal-backup-reset/"
+msgstr "http://wordpress.org/plugins/royal-backup-reset/"

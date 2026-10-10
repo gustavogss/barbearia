@@ -1,0 +1,175 @@
+/* Royal Backup & Reset Tour CSS */
+
+.shepherd-theme-arrows-plain-buttons {
+	z-index: 9999;
+	max-width: 390px !important;
+}
+
+.shepherd-theme-arrows-plain-buttons.super-index {
+	z-index: 999999;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content {
+	border-radius: 3px;
+	filter: none;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15), 0 10px 40px rgba(0,0,0,0.15);
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header {
+	background-color: #2271b1;
+	border-radius: 3px 3px 0 0;
+	padding-right: 90px;
+}
+
+/* Blue arrow pointer for tooltips attached to top (pointing down) */
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-center.shepherd-has-title .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-bottom.shepherd-has-title .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-bottom.shepherd-has-title .shepherd-content:before {
+	border-bottom-color: #2271b1;
+	border-width: 8px;
+	margin-top: -8px;
+}
+
+/* White arrow pointer for tooltips attached to bottom (pointing up - extends from footer) */
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-center.shepherd-has-title .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-top.shepherd-has-title .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-top.shepherd-has-title .shepherd-content:before {
+	border-top-color: #fff;
+	border-width: 8px;
+	margin-bottom: -8px;
+}
+
+/* Hide opposite direction arrows to prevent double arrows */
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-top .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-top .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-bottom .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-bottom .shepherd-content:before {
+	display: block !important;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-right.shepherd-target-attached-bottom .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-bottom.shepherd-element-attached-left.shepherd-target-attached-bottom .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-right.shepherd-target-attached-top .shepherd-content:before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-element-attached-top.shepherd-element-attached-left.shepherd-target-attached-top .shepherd-content:before {
+	display: none !important;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content header h3 {
+	color: #FFF;
+	font-size: 1.2em;
+	float: none;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link {
+	opacity: 0.7;
+	color: rgba(255,255,255,0);
+	font-size: 0.8em;
+	border: 1px solid #FFF;
+	border-radius: 50%;
+	width: 22px;
+	height: 22px;
+	line-height: 20px;
+	padding: 0;
+	text-align: center;
+	float: none;
+	position: absolute;
+	right: 11px;
+	top: 12px;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link::before {
+	color: #FFF;
+	content: attr(data-btntext);
+	position: absolute;
+	right: 20px;
+	padding-right: 10px;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link::after {
+	content: "\f335";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: dashicons;
+	color: #FFF;
+	position: absolute;
+	left: 2px;
+	line-height: 21px;
+	font-size: 16px;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:hover,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:focus {
+	border: 1px solid #135e96;
+	opacity: 1;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:hover::before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:focus::before,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:hover::after,
+.shepherd-element.shepherd-theme-arrows-plain-buttons.shepherd-has-title .shepherd-content header a.shepherd-cancel-link:focus::after {
+	color: #135e96;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content .shepherd-text p {
+	margin-top: 0.5em;
+	margin-bottom: 1.3em;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content footer .shepherd-buttons li .shepherd-button.royalbr-tour-end {
+	float: left;
+	position: relative;
+	padding-left: 0;
+	color: #b7b7b7;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content footer .shepherd-buttons li .shepherd-button.royalbr-tour-back {
+	margin-right: 5px;
+	padding-left: 12px;
+	position: relative;
+}
+
+.shepherd-element.shepherd-theme-arrows-plain-buttons .shepherd-content footer .shepherd-buttons li .shepherd-button.royalbr-tour-back::before {
+	content: ' ';
+	width: 6px;
+	height: 6px;
+	display: block;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+	position: absolute;
+	left: 2px;
+	top: 8px;
+	transform: rotate(45deg);
+}
+
+a.shepherd-button.royalbr-tour-end::before {
+	display: inline-block;
+	position: relative;
+	content: "\f335";
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	font-family: dashicons;
+	font-size: 20px;
+	line-height: 20px;
+	vertical-align: middle;
+	margin-top: -2px;
+}
+
+.royalbr-welcome-logo {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 1.1em;
+}
+
+.royalbr-welcome-logo strong {
+	color: #2271b1;
+}
+
+.highlight-royalbr .plugins #the-list tr:not([data-slug="royal-backup-reset"]) {
+	opacity: 0.3;
+}
+
+@media(max-width: 790px) {
+	.shepherd-element.shepherd-theme-arrows-plain-buttons {
+		display: none;
+	}
+}

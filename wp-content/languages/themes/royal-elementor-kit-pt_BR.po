@@ -1,0 +1,142 @@
+# Translation of Themes - Royal Elementor Kit in Portuguese (Brazil)
+# This file is distributed under the same license as the Themes - Royal Elementor Kit package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-18 07:20:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Themes - Royal Elementor Kit\n"
+
+#. Theme Name of the theme
+#: style.css inc/admin/customizer/customizer.php:39
+#, gp-priority: high
+msgid "Royal Elementor Kit"
+msgstr "Royal Elementor Kit"
+
+#: inc/admin/activation/class-welcome-notice.php:373
+msgid "Welcome to Royal Elementor Kit"
+msgstr "Bem-vindo ao Royal Elementor Kit"
+
+#: inc/admin/activation/class-welcome-notice.php:238
+#: inc/admin/activation/class-welcome-notice.php:273
+msgid "Failed to initialize or activate importer plugin."
+msgstr "Falha ao inicializar ou ativar o plugin importador."
+
+#: inc/admin/activation/class-welcome-notice.php:472
+msgid "Something went wrong, contact support."
+msgstr "Algo deu errado, entre em contato com o suporte."
+
+#: inc/admin/activation/class-welcome-notice.php:383
+msgid "Get Started with Templates Kit %s"
+msgstr "Inicia com o Kit de Modelos %s"
+
+#: inc/admin/activation/class-welcome-notice.php:375
+msgid "Royal Elementor Kit comes with %s with various designs to pick from."
+msgstr "Royal Elementor Kit vem com %s com vários designs para escolher."
+
+#: inc/admin/activation/class-welcome-notice.php:206
+#: inc/admin/activation/class-welcome-notice.php:250
+#: inc/admin/activation/class-welcome-notice.php:285
+msgid "Insufficient permissions to install the plugin."
+msgstr "Permissões insuficientes para instalar o plugin."
+
+#: single.php:65
+msgid "By"
+msgstr "Por"
+
+#: page.php:32 single.php:43
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: index.php:62
+msgid "Nothing Found!"
+msgstr "Nada encontrado!"
+
+#: index.php:46
+msgid "read more"
+msgstr "leia mais"
+
+#: index.php:41 single.php:28
+msgid "Comments"
+msgstr "Comentários"
+
+#: index.php:41 single.php:28
+msgid "1 Comment"
+msgstr "1 Comentário"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr "Ir para o conteúdo"
+
+#: functions.php:35
+msgid "Main Menu"
+msgstr "Menu Principal"
+
+#. translators: %1$s: theme name, %2$s link, %3$s theme author
+#: footer.php:10
+msgid "%1$s Theme by <a href=\"%2$s\">%3$s.</a>"
+msgstr "%1$s Tema por <a href=\"%2$s\">%3$s.</a>"
+
+#: comments.php:43
+msgid "Comment"
+msgstr "Comentário"
+
+#: comments.php:30
+msgid "Newer Comments"
+msgstr "Comentários mais recentes"
+
+#: comments.php:26
+msgid "Older Comments"
+msgstr "Comentários mais antigos"
+
+#: comments.php:12
+msgid "% Comments"
+msgstr "% Comentários"
+
+#: comments.php:12 index.php:41 single.php:28
+msgid "0 Comments"
+msgstr "0 Comentários"
+
+#: 404.php:8
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que não podemos encontrar o que você está procurando. Talvez a pesquisa possa ajudar."
+
+#: 404.php:5
+msgid "Page not found!"
+msgstr "Página não encontrada!"
+
+#: index.php:63
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Nada foi encontrado com os termos da sua pesquisa. Tente novamente com algumas palavras-chaves diferentes."
+
+#: header.php:39
+msgid "Home"
+msgstr "Página inicial"
+
+#: comments.php:44
+msgid "Post Comment"
+msgstr "Comentário do post"
+
+#: comments.php:42
+msgid "Leave a Reply"
+msgstr "Deixe uma resposta"
+
+#: comments.php:12
+msgid "One Comment"
+msgstr "Um comentário"
+
+#. Author URI of the theme
+#: style.css
+#, gp-priority: low
+msgid "https://royal-elementor-addons.com/"
+msgstr "https://royal-elementor-addons.com/"
+
+#. Author of the theme
+#: style.css
+#, gp-priority: low
+msgid "WP Royal"
+msgstr "WP Royal"
