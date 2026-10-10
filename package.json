@@ -1,0 +1,12 @@
+{
+  "name": "barbearia-static-export",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/export-static.mjs",
+    "export:static": "node scripts/export-static.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

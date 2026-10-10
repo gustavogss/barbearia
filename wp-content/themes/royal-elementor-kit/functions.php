@@ -79,6 +79,25 @@ function royal_elementor_kit_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'royal_elementor_kit_scripts' );
 
+function royal_elementor_kit_translate_wpr_addons_strings( $translation, $text, $domain ) {
+	if ( 'wpr-addons' !== $domain ) {
+		return $translation;
+	}
+
+	$translations = array(
+		'was added to cart' => 'foi adicionado ao carrinho',
+		'View Cart' => 'Ver carrinho',
+		'Please select the required number of items.' => 'Selecione a quantidade necessária de itens.',
+		'Please fill out this field' => 'Preencha este campo',
+		'Nothing selected' => 'Nada selecionado',
+		'Please upload a file' => 'Envie um arquivo',
+		'Recaptcha Error' => 'Erro no reCAPTCHA',
+	);
+
+	return $translations[ $text ] ?? $translation;
+}
+add_filter( 'gettext', 'royal_elementor_kit_translate_wpr_addons_strings', 10, 3 );
+
 /*
 ** Notices
 */

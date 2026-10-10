@@ -1,0 +1,10 @@
+wp-admin/
+wp-includes/
+wp-content/cache/
+wp-content/plugins/
+wp-content/upgrade/
+*.php
+readme.html
+license.txt
+local-xdebuginfo.php
+.git/
